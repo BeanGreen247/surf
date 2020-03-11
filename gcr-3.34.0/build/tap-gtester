@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+executable="$1"
+shift
+exec "$executable" -k --tap "$@"

@@ -1,0 +1,7 @@
+[options]
+man = true
+selinux = disabled
+prefix = /usr
+
+[properties]
+

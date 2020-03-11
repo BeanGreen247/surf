@@ -1,0 +1,79 @@
+1.7      - Revert help2man update (requires complete perl environment)
+1.6      - Fix install target for make -j#
+         - Add detailed dependency info and add note about configuration file 
+         - Update help2man to 1.47.12
+1.5      - Allow generation of all stores in alternate directory
+1.4      - Revert change to use /usr/bin/update-ca-certifiates for systemd 
+           service
+1.3      - Added write_nss_db() and write_java_p12() functions to eliminate
+           duplicate code
+         - Corrected version string
+         - Remove unused variables saarg, csarg, and smarg in
+           get_trust_values() function
+         - Remove unused CERTLIST variable in copy-trust-modifications
+         - Fix syntax error in check_arg() function
+         - Correct STDERR redirection in multiple functions
+         - Redirect errors in copy-trust-modifications script
+         - Use update-ca-certificates for systemd service
+1.2      - Use md5sum values for anchors.txt to detect p11-kit changes
+         - Added get_p11_label() function to get reliable label values
+         - Added get_trust_values(), get_p11_trust(), and write_anchor()
+           functions to eliminate duplicate code
+         - Fix certificate label in local certificates
+         - Changed default name of anchors list to use md5sums extension
+         - Added copy-trust-modifcations script for use by p11-kit
+1.1      - Add anchorlist for use by p11-kit to utilize LOCALDIR
+1.0      - Move bundle defaults to /etc/pki/tls/{certs,java}/
+         - Fix invalid test cases on command line processing
+         - Remove -c/--cadir flags, replace with -b/--bundledir to store
+           all bundles in same location
+         - Perform system installation of update service files
+         - Separate installation step for other consumers
+         - Install default configuration file
+0.9      - Use P11-Kit trust module to generate alternate certificate stores
+           from trust policy
+         - Only generate the trust store (and optionally NSSDB and Java PKCS#12)
+           when using DESTDIR - you now must run the installed script as part of
+           your post-installation proceedure, with P11-Kit trust available, to
+           generate the alternate certificate stores - only the trust store (and
+           optionally NSSDB and Java P12 stores) are distributed
+         - Added "Wants=network-online.target" to update-pki.service - Thanks to
+           Brendan L for the fix
+         - No longer generate Java p12 format cacerts by default
+         - No longer generate NSSDB store by default
+0.8      - Use 'openssl rehash' instead of c-rehash script
+0.7      - Generate both PKCS#12 and JKS stores for Java
+         - Local certs keep out of band trust when copied to system certs
+         - Remove use of .old files/directories
+0.6      - Allow use of proxy with OpenSSL s_client
+         - Really check revision before download
+         - Make sure download was successful before testing values
+0.5      - Install systemd timer and service units
+         - Add uninstall and clean targets
+0.4      - Add email and code signing flat file certificate stores
+0.3      - Generate single file stores (Java and GNUTLS) using main OpenSSL
+           store as source to avoid duplicates
+0.2      - Install source certdata.txt file
+         - Provide -r/--rebuild option
+         - Add -g/--get option to download using only s_client
+         - Always add REVISION value to installed certdata.txt
+         - Use HG revision value (fall back to date for local files)
+         - Allow rebuid within DESTDIR
+         - Complete manpage
+0.1      - Check executable bit for CERTUTIL, KEYTOOL, and OPENSSL
+         - Allow global configuration file
+         - Use correct license text (MIT)
+20170425 - Use p11-kit format anchors
+         - Add CKA_NSS_MOZILLA_CA_POLICY attribute for p11-kit anchors
+         - Add clientAuth OpenSSL attribute and (currently unused) NSS
+           CKA_TRUST_CLIENT_AUTH
+20170119 - Show trust bits on local certs
+         - Add version output for help2man
+20161210 - Add note about --force swich when same version
+20161126 - Add -D/--destdir switch
+20161124 - Add -f/--force switch to bypass version check
+         - Add multiple switches to allow for alternate localtions
+         - Add help text
+20161118 - Drop make-cert.pl script
+         - Add support for Java and NSSDB
+

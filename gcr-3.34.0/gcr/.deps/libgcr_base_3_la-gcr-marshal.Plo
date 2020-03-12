@@ -144,6 +144,7 @@ gcr/libgcr_base_3_la-gcr-marshal.lo: gcr/gcr-marshal.c \
  /usr/include/glib-2.0/gobject/gboxed.h \
  /usr/include/glib-2.0/gobject/glib-types.h \
  /usr/include/glib-2.0/gobject/genums.h \
+ /usr/include/glib-2.0/gobject/glib-enumtypes.h \
  /usr/include/glib-2.0/gobject/gparamspecs.h \
  /usr/include/glib-2.0/gobject/gsourceclosure.h \
  /usr/include/glib-2.0/gobject/gtypemodule.h \
@@ -491,6 +492,8 @@ gcr/gcr-marshal.h:
 /usr/include/glib-2.0/gobject/glib-types.h:
 
 /usr/include/glib-2.0/gobject/genums.h:
+
+/usr/include/glib-2.0/gobject/glib-enumtypes.h:
 
 /usr/include/glib-2.0/gobject/gparamspecs.h:
 

@@ -147,6 +147,7 @@ gcr/libgcr_base_3_la-gcr-comparable.lo: gcr/gcr-comparable.c \
  /usr/include/glib-2.0/gobject/gboxed.h \
  /usr/include/glib-2.0/gobject/glib-types.h \
  /usr/include/glib-2.0/gobject/genums.h \
+ /usr/include/glib-2.0/gobject/glib-enumtypes.h \
  /usr/include/glib-2.0/gobject/gparamspecs.h \
  /usr/include/glib-2.0/gobject/gsourceclosure.h \
  /usr/include/glib-2.0/gobject/gtypemodule.h \
@@ -504,6 +505,8 @@ gcr/gcr-comparable.h:
 /usr/include/glib-2.0/gobject/glib-types.h:
 
 /usr/include/glib-2.0/gobject/genums.h:
+
+/usr/include/glib-2.0/gobject/glib-enumtypes.h:
 
 /usr/include/glib-2.0/gobject/gparamspecs.h:
 

@@ -207,7 +207,7 @@
 
 #define HAVE_SCHED_H 1
 
-#undef HAVE_SELINUX
+#define HAVE_SELINUX
 
 #define HAVE_SENDMMSG 1
 

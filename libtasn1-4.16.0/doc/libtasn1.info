@@ -1,7 +1,7 @@
-This is libtasn1.info, produced by makeinfo version 6.7 from
+This is libtasn1.info, produced by makeinfo version 6.5 from
 libtasn1.texi.
 
-This manual is for GNU Libtasn1 (version 4.16.0, 3 January 2020), which
+This manual is for GNU Libtasn1 (version 4.16.0, 12 March 2020), which
 is a library for Abstract Syntax Notation One (ASN.1) and Distinguished
 Encoding Rules (DER) manipulation.
 
@@ -24,7 +24,7 @@ File: libtasn1.info,  Node: Top,  Next: Introduction,  Up: (dir)
 Libtasn1
 ********
 
-This manual is for GNU Libtasn1 (version 4.16.0, 3 January 2020), which
+This manual is for GNU Libtasn1 (version 4.16.0, 12 March 2020), which
 is a library for Abstract Syntax Notation One (ASN.1) and Distinguished
 Encoding Rules (DER) manipulation.
 
@@ -2099,73 +2099,68 @@ Function and Data Index
 
 
 Tag Table:
-Node: Top866
-Node: Introduction1861
-Node: ASN.1 structure handling3230
-Node: ASN.1 syntax3489
-Node: Naming5077
-Node: Simple parsing6058
-Node: Library Notes6385
-Node: Future developments7167
-Node: Utilities7466
-Node: Invoking asn1Parser7686
-Node: Invoking asn1Coding8148
-Node: Invoking asn1Decoding9885
-Node: Function reference10640
-Node: ASN.1 schema functions10924
-Ref: asn1_parser2tree11123
-Ref: asn1_parser2array12174
-Node: ASN.1 field functions13492
-Ref: asn1_array2tree13709
-Ref: asn1_delete_structure14561
-Ref: asn1_delete_structure214935
-Ref: asn1_delete_element15390
-Ref: asn1_create_element15862
-Ref: asn1_print_structure16522
-Ref: asn1_number_of_elements17157
-Ref: asn1_find_structure_from_oid17758
-Ref: asn1_copy_node18242
-Ref: asn1_dup_node18734
-Ref: asn1_write_value19100
-Ref: asn1_read_value23134
-Ref: asn1_read_value_type26073
-Ref: asn1_read_tag29087
-Ref: asn1_read_node_value29800
-Node: DER functions30152
-Ref: asn1_length_der30355
-Ref: asn1_octet_der30941
-Ref: asn1_encode_simple_der31749
-Ref: asn1_object_id_der32591
-Ref: asn1_bit_der33257
-Ref: asn1_der_coding34048
-Ref: asn1_get_length_der35077
-Ref: asn1_get_tag_der35617
-Ref: asn1_get_length_ber36179
-Ref: asn1_get_octet_der36772
-Ref: asn1_get_object_id_der37631
-Ref: asn1_get_bit_der38300
-Ref: asn1_der_decoding238973
-Ref: asn1_der_decoding40371
-Ref: asn1_der_decoding_element41310
-Ref: asn1_der_decoding_startEnd42617
-Ref: asn1_expand_any_defined_by44069
-Ref: asn1_expand_octet_string44880
-Ref: asn1_decode_simple_der45887
-Ref: asn1_decode_simple_ber46529
-Node: Error handling functions47230
-Ref: asn1_perror47446
-Ref: asn1_strerror47787
-Node: Auxilliary functions48198
-Ref: asn1_find_node48390
-Ref: asn1_check_version48991
-Node: Copying Information49590
-Node: GNU Free Documentation License49843
-Node: Concept Index74958
-Node: Function and Data Index76064
+Node: Top865
+Node: Introduction1859
+Node: ASN.1 structure handling3228
+Node: ASN.1 syntax3487
+Node: Naming5075
+Node: Simple parsing6056
+Node: Library Notes6383
+Node: Future developments7165
+Node: Utilities7464
+Node: Invoking asn1Parser7684
+Node: Invoking asn1Coding8146
+Node: Invoking asn1Decoding9883
+Node: Function reference10638
+Node: ASN.1 schema functions10922
+Ref: asn1_parser2tree11121
+Ref: asn1_parser2array12172
+Node: ASN.1 field functions13490
+Ref: asn1_array2tree13707
+Ref: asn1_delete_structure14559
+Ref: asn1_delete_structure214933
+Ref: asn1_delete_element15388
+Ref: asn1_create_element15860
+Ref: asn1_print_structure16520
+Ref: asn1_number_of_elements17155
+Ref: asn1_find_structure_from_oid17756
+Ref: asn1_copy_node18240
+Ref: asn1_dup_node18732
+Ref: asn1_write_value19098
+Ref: asn1_read_value23132
+Ref: asn1_read_value_type26071
+Ref: asn1_read_tag29085
+Ref: asn1_read_node_value29798
+Node: DER functions30150
+Ref: asn1_length_der30353
+Ref: asn1_octet_der30939
+Ref: asn1_encode_simple_der31747
+Ref: asn1_object_id_der32589
+Ref: asn1_bit_der33255
+Ref: asn1_der_coding34046
+Ref: asn1_get_length_der35075
+Ref: asn1_get_tag_der35615
+Ref: asn1_get_length_ber36177
+Ref: asn1_get_octet_der36770
+Ref: asn1_get_object_id_der37629
+Ref: asn1_get_bit_der38298
+Ref: asn1_der_decoding238971
+Ref: asn1_der_decoding40369
+Ref: asn1_der_decoding_element41308
+Ref: asn1_der_decoding_startEnd42615
+Ref: asn1_expand_any_defined_by44067
+Ref: asn1_expand_octet_string44878
+Ref: asn1_decode_simple_der45885
+Ref: asn1_decode_simple_ber46527
+Node: Error handling functions47228
+Ref: asn1_perror47444
+Ref: asn1_strerror47785
+Node: Auxilliary functions48196
+Ref: asn1_find_node48388
+Ref: asn1_check_version48989
+Node: Copying Information49588
+Node: GNU Free Documentation License49841
+Node: Concept Index74956
+Node: Function and Data Index76062
 
 End Tag Table
-
-
-Local Variables:
-coding: utf-8
-End:

@@ -970,8 +970,8 @@ lt_cv_to_host_file_cmd=func_convert_file_noop
 lt_cv_to_tool_file_cmd=func_convert_file_noop
 lt_cv_truncate_bin='/usr/bin/dd bs=4096 count=1'
 pkg_cv_GLIB_CFLAGS='-pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include'
-pkg_cv_GLIB_COMPILE_SCHEMAS=/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
-pkg_cv_GLIB_LIBS='-lgmodule-2.0 -pthread -lgthread-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0'
+pkg_cv_GLIB_COMPILE_SCHEMAS=/usr/bin/glib-compile-schemas
+pkg_cv_GLIB_LIBS='-pthread -lgmodule-2.0 -pthread -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0'
 pkg_cv_GTKDOC_DEPS_CFLAGS='-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include'
 pkg_cv_GTKDOC_DEPS_LIBS='-lgobject-2.0 -lglib-2.0'
 pkg_cv_GTK_CFLAGS='-pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/libdrm -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include'
@@ -1062,9 +1062,9 @@ GETTEXT_MACRO_VERSION='0.19'
 GETTEXT_PACKAGE='gcr'
 GLIB_CFLAGS='-pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_38 -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_38'
 GLIB_COMPILE_RESOURCES='/usr/bin/glib-compile-resources'
-GLIB_COMPILE_SCHEMAS='/usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas'
+GLIB_COMPILE_SCHEMAS='/usr/bin/glib-compile-schemas'
 GLIB_GENMARSHAL='/usr/bin/glib-genmarshal'
-GLIB_LIBS='-lgmodule-2.0 -pthread -lgthread-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0'
+GLIB_LIBS='-pthread -lgmodule-2.0 -pthread -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0'
 GLIB_MKENUMS='/usr/bin/glib-mkenums'
 GMSGFMT='/usr/bin/msgfmt'
 GMSGFMT_015='/usr/bin/msgfmt'

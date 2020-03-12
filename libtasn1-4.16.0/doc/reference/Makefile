@@ -144,17 +144,7 @@ build_triplet = x86_64-pc-linux-gnu
 host_triplet = x86_64-pc-linux-gnu
 subdir = doc/reference
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-am__aclocal_m4_deps = $(top_srcdir)/m4/ax_ac_append_to_file.m4 \
-	$(top_srcdir)/m4/ax_ac_print_to_file.m4 \
-	$(top_srcdir)/m4/ax_add_am_macro_static.m4 \
-	$(top_srcdir)/m4/ax_am_macros_static.m4 \
-	$(top_srcdir)/m4/ax_check_gnu_make.m4 \
-	$(top_srcdir)/m4/ax_code_coverage.m4 \
-	$(top_srcdir)/m4/ax_file_escapes.m4 \
-	$(top_srcdir)/m4/gtk-doc.m4 $(top_srcdir)/m4/libtool.m4 \
-	$(top_srcdir)/m4/ltoptions.m4 $(top_srcdir)/m4/ltsugar.m4 \
-	$(top_srcdir)/m4/ltversion.m4 $(top_srcdir)/m4/lt~obsolete.m4 \
-	$(top_srcdir)/m4/pkg.m4 $(top_srcdir)/m4-gl/00gnulib.m4 \
+am__aclocal_m4_deps = $(top_srcdir)/m4-gl/00gnulib.m4 \
 	$(top_srcdir)/m4-gl/__inline.m4 \
 	$(top_srcdir)/m4-gl/absolute-header.m4 \
 	$(top_srcdir)/m4-gl/extensions.m4 \
@@ -176,7 +166,18 @@ am__aclocal_m4_deps = $(top_srcdir)/m4/ax_ac_append_to_file.m4 \
 	$(top_srcdir)/m4-gl/visibility.m4 \
 	$(top_srcdir)/m4-gl/warn-on-use.m4 \
 	$(top_srcdir)/m4-gl/warnings.m4 $(top_srcdir)/m4-gl/wchar_t.m4 \
-	$(top_srcdir)/m4-gl/wint_t.m4 $(top_srcdir)/configure.ac
+	$(top_srcdir)/m4-gl/wint_t.m4 \
+	$(top_srcdir)/m4/ax_ac_append_to_file.m4 \
+	$(top_srcdir)/m4/ax_ac_print_to_file.m4 \
+	$(top_srcdir)/m4/ax_add_am_macro_static.m4 \
+	$(top_srcdir)/m4/ax_am_macros_static.m4 \
+	$(top_srcdir)/m4/ax_check_gnu_make.m4 \
+	$(top_srcdir)/m4/ax_code_coverage.m4 \
+	$(top_srcdir)/m4/ax_file_escapes.m4 \
+	$(top_srcdir)/m4/gtk-doc.m4 $(top_srcdir)/m4/libtool.m4 \
+	$(top_srcdir)/m4/ltoptions.m4 $(top_srcdir)/m4/ltsugar.m4 \
+	$(top_srcdir)/m4/ltversion.m4 $(top_srcdir)/m4/lt~obsolete.m4 \
+	$(top_srcdir)/m4/pkg.m4 $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(am__DIST_COMMON)

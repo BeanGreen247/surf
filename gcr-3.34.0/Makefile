@@ -1576,9 +1576,9 @@ GETTEXT_MACRO_VERSION = 0.19
 GETTEXT_PACKAGE = gcr
 GLIB_CFLAGS = -pthread -I/usr/include/gio-unix-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/uuid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_38 -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_38
 GLIB_COMPILE_RESOURCES = /usr/bin/glib-compile-resources
-GLIB_COMPILE_SCHEMAS = /usr/lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+GLIB_COMPILE_SCHEMAS = /usr/bin/glib-compile-schemas
 GLIB_GENMARSHAL = /usr/bin/glib-genmarshal
-GLIB_LIBS = -lgmodule-2.0 -pthread -lgthread-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0
+GLIB_LIBS = -pthread -lgmodule-2.0 -pthread -lgthread-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
 GLIB_MKENUMS = /usr/bin/glib-mkenums
 GMSGFMT = /usr/bin/msgfmt
 GMSGFMT_015 = /usr/bin/msgfmt

@@ -1424,10 +1424,10 @@ configure:12698: $? = 0
 configure:12703: result: yes
 configure:12718: checking whether GCC assembler is compatible for ARM assembly implementations
 configure:12739: gcc -c -g -O2 -fvisibility=hidden  conftest.c >&5
-/tmp/ccuHx4Al.s: Assembler messages:
-/tmp/ccuHx4Al.s:5: Error: unknown pseudo-op: `.syntax'
-/tmp/ccuHx4Al.s:6: Error: unknown pseudo-op: `.arm'
-/tmp/ccuHx4Al.s:8: Error: bad register name `%r0'
+/tmp/ccJeRLyh.s: Assembler messages:
+/tmp/ccJeRLyh.s:5: Error: unknown pseudo-op: `.syntax'
+/tmp/ccJeRLyh.s:6: Error: unknown pseudo-op: `.arm'
+/tmp/ccJeRLyh.s:8: Error: bad register name `%r0'
 configure:12739: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -1505,10 +1505,10 @@ configure: failed program was:
 configure:12744: result: no
 configure:12758: checking whether GCC assembler is compatible for ARMv8/Aarch64 assembly implementations
 configure:12777: gcc -c -g -O2 -fvisibility=hidden  conftest.c >&5
-/tmp/ccjGZpXs.s: Assembler messages:
-/tmp/ccjGZpXs.s:6: Error: no such instruction: `eor x0,x0,x30,ror'
-/tmp/ccjGZpXs.s:7: Error: too many memory references for `add'
-/tmp/ccjGZpXs.s:8: Error: no such instruction: `eor v0.16b,v0.16b,v31.16b'
+/tmp/ccuVgvnq.s: Assembler messages:
+/tmp/ccuVgvnq.s:6: Error: no such instruction: `eor x0,x0,x30,ror'
+/tmp/ccuVgvnq.s:7: Error: too many memory references for `add'
+/tmp/ccuVgvnq.s:8: Error: no such instruction: `eor v0.16b,v0.16b,v31.16b'
 configure:12777: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -1737,7 +1737,7 @@ configure:13840: $? = 0
 configure:13840: result: yes
 configure:13846: checking for _doprnt
 configure:13846: gcc -o conftest -g -O2 -fvisibility=hidden   conftest.c  >&5
-/usr/bin/ld: /tmp/cclmxRTG.o: in function `main':
+/usr/bin/ld: /tmp/ccpMmyi2.o: in function `main':
 /home/beangreen247/surf/libgcrypt-1.8.5/conftest.c:107: undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:13846: $? = 1
@@ -1880,7 +1880,7 @@ configure:13874: $? = 0
 configure:13874: result: yes
 configure:13874: checking for stricmp
 configure:13874: gcc -o conftest -g -O2 -fvisibility=hidden   conftest.c  >&5
-/usr/bin/ld: /tmp/ccNQfp6Q.o: in function `main':
+/usr/bin/ld: /tmp/ccWgMVGi.o: in function `main':
 /home/beangreen247/surf/libgcrypt-1.8.5/conftest.c:111: undefined reference to `stricmp'
 collect2: error: ld returned 1 exit status
 configure:13874: $? = 1
@@ -2046,7 +2046,7 @@ configure:13899: $? = 0
 configure:13899: result: yes
 configure:13899: checking for gethrtime
 configure:13899: gcc -o conftest -g -O2 -fvisibility=hidden   conftest.c  >&5
-/usr/bin/ld: /tmp/cc7RzzUG.o: in function `main':
+/usr/bin/ld: /tmp/ccL8sWp2.o: in function `main':
 /home/beangreen247/surf/libgcrypt-1.8.5/conftest.c:122: undefined reference to `gethrtime'
 collect2: error: ld returned 1 exit status
 configure:13899: $? = 1

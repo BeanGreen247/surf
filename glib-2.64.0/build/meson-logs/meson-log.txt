@@ -1,4 +1,4 @@
-Build started at 2020-03-11T08:04:54.382775
+Build started at 2020-03-12T12:12:05.807046
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -33,8 +33,8 @@ Native C++ compiler: c++ (gcc 8.3.0 "c++ (Debian 8.3.0-6) 8.3.0")
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
 Running compile:
-Working directory:  /tmp/tmpjhd8ksye
-Command line:  cc /tmp/tmpjhd8ksye/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjhd8ksye/output.obj -O0 -fno-strict-aliasing 
+Working directory:  /tmp/tmptmwg0f2f
+Command line:  cc /tmp/tmptmwg0f2f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptmwg0f2f/output.obj -O0 -fno-strict-aliasing 
 
 Code:
  int i;
@@ -45,8 +45,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -fno-strict-aliasing: YES
 Running compile:
-Working directory:  /tmp/tmpxk9zji95
-Command line:  cc /tmp/tmpxk9zji95/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpxk9zji95/output.obj -O0 -std=gnu99 -Werror 
+Working directory:  /tmp/tmp5tj2m2w2
+Command line:  cc /tmp/tmp5tj2m2w2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp5tj2m2w2/output.obj -O0 -std=gnu99 -Werror 
 
 Code:
  
@@ -79,8 +79,8 @@ Compiler stderr:
  
 Checking if "GNU C visibility attributes test" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpq_6lp39j
-Command line:  cc /tmp/tmpq_6lp39j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpq_6lp39j/output.obj -O0 -fvisibility=hidden 
+Working directory:  /tmp/tmp_9yq0mcz
+Command line:  cc /tmp/tmp_9yq0mcz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_9yq0mcz/output.obj -O0 -fvisibility=hidden 
 
 Code:
  int i;
@@ -91,8 +91,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -fvisibility=hidden: YES
 Running compile:
-Working directory:  /tmp/tmpxj3rkjgx
-Command line:  cc /tmp/tmpxj3rkjgx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpowc5ga3i
+Command line:  cc /tmp/tmpowc5ga3i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -109,8 +109,8 @@ Compiler stderr:
  
 Has header "alloca.h" : YES
 Running compile:
-Working directory:  /tmp/tmpe3hc_56q
-Command line:  cc /tmp/tmpe3hc_56q/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmptjtrhsrn
+Command line:  cc /tmp/tmptjtrhsrn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -124,14 +124,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpe3hc_56q/testfile.c:4:12: error: #error "Header 'crt_externs.h' could not be found"
+ /tmp/tmptjtrhsrn/testfile.c:4:12: error: #error "Header 'crt_externs.h' could not be found"
            #error "Header 'crt_externs.h' could not be found"
             ^~~~~
 
 Has header "crt_externs.h" : NO
 Running compile:
-Working directory:  /tmp/tmpkntw6h8x
-Command line:  cc /tmp/tmpkntw6h8x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmps4ql0zhh
+Command line:  cc /tmp/tmps4ql0zhh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -148,8 +148,8 @@ Compiler stderr:
  
 Has header "dirent.h" : YES
 Running compile:
-Working directory:  /tmp/tmp3sice24h
-Command line:  cc /tmp/tmp3sice24h/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmprwgt1ti8
+Command line:  cc /tmp/tmprwgt1ti8/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -166,8 +166,8 @@ Compiler stderr:
  
 Has header "float.h" : YES
 Running compile:
-Working directory:  /tmp/tmp37lu_uiv
-Command line:  cc /tmp/tmp37lu_uiv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp7ugkov_o
+Command line:  cc /tmp/tmp7ugkov_o/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -184,8 +184,8 @@ Compiler stderr:
  
 Has header "fstab.h" : YES
 Running compile:
-Working directory:  /tmp/tmpxovpaxpb
-Command line:  cc /tmp/tmpxovpaxpb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpsvrwkkxp
+Command line:  cc /tmp/tmpsvrwkkxp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -202,8 +202,8 @@ Compiler stderr:
  
 Has header "grp.h" : YES
 Running compile:
-Working directory:  /tmp/tmp8ue1_rje
-Command line:  cc /tmp/tmp8ue1_rje/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpiema5mwg
+Command line:  cc /tmp/tmpiema5mwg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -220,8 +220,8 @@ Compiler stderr:
  
 Has header "inttypes.h" : YES
 Running compile:
-Working directory:  /tmp/tmpx1v0exmv
-Command line:  cc /tmp/tmpx1v0exmv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp08teo21i
+Command line:  cc /tmp/tmp08teo21i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -238,8 +238,8 @@ Compiler stderr:
  
 Has header "limits.h" : YES
 Running compile:
-Working directory:  /tmp/tmp6790zh7b
-Command line:  cc /tmp/tmp6790zh7b/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpeba_scil
+Command line:  cc /tmp/tmpeba_scil/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -256,8 +256,8 @@ Compiler stderr:
  
 Has header "linux/magic.h" : YES
 Running compile:
-Working directory:  /tmp/tmpj9zpzdo0
-Command line:  cc /tmp/tmpj9zpzdo0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp3ubl42ru
+Command line:  cc /tmp/tmp3ubl42ru/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -274,8 +274,8 @@ Compiler stderr:
  
 Has header "locale.h" : YES
 Running compile:
-Working directory:  /tmp/tmp9ql7n63_
-Command line:  cc /tmp/tmp9ql7n63_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpqcuyumkb
+Command line:  cc /tmp/tmpqcuyumkb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -289,14 +289,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp9ql7n63_/testfile.c:4:12: error: #error "Header 'mach/mach_time.h' could not be found"
+ /tmp/tmpqcuyumkb/testfile.c:4:12: error: #error "Header 'mach/mach_time.h' could not be found"
            #error "Header 'mach/mach_time.h' could not be found"
             ^~~~~
 
 Has header "mach/mach_time.h" : NO
 Running compile:
-Working directory:  /tmp/tmpsllh1rxe
-Command line:  cc /tmp/tmpsllh1rxe/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp5cnsq8a0
+Command line:  cc /tmp/tmp5cnsq8a0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -313,8 +313,8 @@ Compiler stderr:
  
 Has header "memory.h" : YES
 Running compile:
-Working directory:  /tmp/tmprotkcuy5
-Command line:  cc /tmp/tmprotkcuy5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpc6n88uyn
+Command line:  cc /tmp/tmpc6n88uyn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -331,8 +331,8 @@ Compiler stderr:
  
 Has header "mntent.h" : YES
 Running compile:
-Working directory:  /tmp/tmpmj7kxs7b
-Command line:  cc /tmp/tmpmj7kxs7b/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpbpfiqgk4
+Command line:  cc /tmp/tmpbpfiqgk4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -349,8 +349,8 @@ Compiler stderr:
  
 Has header "poll.h" : YES
 Running compile:
-Working directory:  /tmp/tmpmgtwg8a0
-Command line:  cc /tmp/tmpmgtwg8a0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpc9gd46jb
+Command line:  cc /tmp/tmpc9gd46jb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -367,8 +367,8 @@ Compiler stderr:
  
 Has header "pwd.h" : YES
 Running compile:
-Working directory:  /tmp/tmphdt92f9g
-Command line:  cc /tmp/tmphdt92f9g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp3m_x6k_x
+Command line:  cc /tmp/tmp3m_x6k_x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -385,8 +385,8 @@ Compiler stderr:
  
 Has header "sched.h" : YES
 Running compile:
-Working directory:  /tmp/tmpelr67cby
-Command line:  cc /tmp/tmpelr67cby/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmphme_nalv
+Command line:  cc /tmp/tmphme_nalv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -403,8 +403,8 @@ Compiler stderr:
  
 Has header "spawn.h" : YES
 Running compile:
-Working directory:  /tmp/tmp658obdtt
-Command line:  cc /tmp/tmp658obdtt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpp2u4q55j
+Command line:  cc /tmp/tmpp2u4q55j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -421,8 +421,8 @@ Compiler stderr:
  
 Has header "stdint.h" : YES
 Running compile:
-Working directory:  /tmp/tmpng8bh3nb
-Command line:  cc /tmp/tmpng8bh3nb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpxfposnbd
+Command line:  cc /tmp/tmpxfposnbd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -439,8 +439,8 @@ Compiler stderr:
  
 Has header "stdlib.h" : YES
 Running compile:
-Working directory:  /tmp/tmp9z1v6bi6
-Command line:  cc /tmp/tmp9z1v6bi6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpu7lagnc2
+Command line:  cc /tmp/tmpu7lagnc2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -457,8 +457,8 @@ Compiler stderr:
  
 Has header "string.h" : YES
 Running compile:
-Working directory:  /tmp/tmpvtt4rvwc
-Command line:  cc /tmp/tmpvtt4rvwc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp9rlxtqkq
+Command line:  cc /tmp/tmp9rlxtqkq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -475,8 +475,8 @@ Compiler stderr:
  
 Has header "strings.h" : YES
 Running compile:
-Working directory:  /tmp/tmp2n3bsl9d
-Command line:  cc /tmp/tmp2n3bsl9d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpofx_gwdr
+Command line:  cc /tmp/tmpofx_gwdr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -493,8 +493,8 @@ Compiler stderr:
  
 Has header "sys/auxv.h" : YES
 Running compile:
-Working directory:  /tmp/tmpd54017xv
-Command line:  cc /tmp/tmpd54017xv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp8h3ko9uw
+Command line:  cc /tmp/tmp8h3ko9uw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -508,14 +508,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpd54017xv/testfile.c:4:12: error: #error "Header 'sys/event.h' could not be found"
+ /tmp/tmp8h3ko9uw/testfile.c:4:12: error: #error "Header 'sys/event.h' could not be found"
            #error "Header 'sys/event.h' could not be found"
             ^~~~~
 
 Has header "sys/event.h" : NO
 Running compile:
-Working directory:  /tmp/tmp9w34gr89
-Command line:  cc /tmp/tmp9w34gr89/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpecuxckl4
+Command line:  cc /tmp/tmpecuxckl4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -529,14 +529,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp9w34gr89/testfile.c:4:12: error: #error "Header 'sys/filio.h' could not be found"
+ /tmp/tmpecuxckl4/testfile.c:4:12: error: #error "Header 'sys/filio.h' could not be found"
            #error "Header 'sys/filio.h' could not be found"
             ^~~~~
 
 Has header "sys/filio.h" : NO
 Running compile:
-Working directory:  /tmp/tmpgxyyb13x
-Command line:  cc /tmp/tmpgxyyb13x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpxftr3e9t
+Command line:  cc /tmp/tmpxftr3e9t/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -553,8 +553,8 @@ Compiler stderr:
  
 Has header "sys/inotify.h" : YES
 Running compile:
-Working directory:  /tmp/tmpats5y5ws
-Command line:  cc /tmp/tmpats5y5ws/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpfru0y0wv
+Command line:  cc /tmp/tmpfru0y0wv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -568,14 +568,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpats5y5ws/testfile.c:4:12: error: #error "Header 'sys/mkdev.h' could not be found"
+ /tmp/tmpfru0y0wv/testfile.c:4:12: error: #error "Header 'sys/mkdev.h' could not be found"
            #error "Header 'sys/mkdev.h' could not be found"
             ^~~~~
 
 Has header "sys/mkdev.h" : NO
 Running compile:
-Working directory:  /tmp/tmp13p0nd62
-Command line:  cc /tmp/tmp13p0nd62/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpau7zr7qs
+Command line:  cc /tmp/tmpau7zr7qs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -589,14 +589,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp13p0nd62/testfile.c:4:12: error: #error "Header 'sys/mntctl.h' could not be found"
+ /tmp/tmpau7zr7qs/testfile.c:4:12: error: #error "Header 'sys/mntctl.h' could not be found"
            #error "Header 'sys/mntctl.h' could not be found"
             ^~~~~
 
 Has header "sys/mntctl.h" : NO
 Running compile:
-Working directory:  /tmp/tmpr_12xgc4
-Command line:  cc /tmp/tmpr_12xgc4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp16d22atr
+Command line:  cc /tmp/tmp16d22atr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -610,14 +610,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpr_12xgc4/testfile.c:4:12: error: #error "Header 'sys/mnttab.h' could not be found"
+ /tmp/tmp16d22atr/testfile.c:4:12: error: #error "Header 'sys/mnttab.h' could not be found"
            #error "Header 'sys/mnttab.h' could not be found"
             ^~~~~
 
 Has header "sys/mnttab.h" : NO
 Running compile:
-Working directory:  /tmp/tmpqh066cpm
-Command line:  cc /tmp/tmpqh066cpm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpd10c7f1i
+Command line:  cc /tmp/tmpd10c7f1i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -634,8 +634,8 @@ Compiler stderr:
  
 Has header "sys/mount.h" : YES
 Running compile:
-Working directory:  /tmp/tmpo7ypv24n
-Command line:  cc /tmp/tmpo7ypv24n/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp5rldeljl
+Command line:  cc /tmp/tmp5rldeljl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -652,8 +652,8 @@ Compiler stderr:
  
 Has header "sys/param.h" : YES
 Running compile:
-Working directory:  /tmp/tmpfp622id1
-Command line:  cc /tmp/tmpfp622id1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpuzu4_g59
+Command line:  cc /tmp/tmpuzu4_g59/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -670,8 +670,8 @@ Compiler stderr:
  
 Has header "sys/resource.h" : YES
 Running compile:
-Working directory:  /tmp/tmp627n8fy5
-Command line:  cc /tmp/tmp627n8fy5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpxirvxt45
+Command line:  cc /tmp/tmpxirvxt45/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -688,8 +688,8 @@ Compiler stderr:
  
 Has header "sys/select.h" : YES
 Running compile:
-Working directory:  /tmp/tmp8ni00oax
-Command line:  cc /tmp/tmp8ni00oax/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp2vmsz4rj
+Command line:  cc /tmp/tmp2vmsz4rj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -706,8 +706,8 @@ Compiler stderr:
  
 Has header "sys/statfs.h" : YES
 Running compile:
-Working directory:  /tmp/tmphgrocebn
-Command line:  cc /tmp/tmphgrocebn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpach9npke
+Command line:  cc /tmp/tmpach9npke/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -724,8 +724,8 @@ Compiler stderr:
  
 Has header "sys/stat.h" : YES
 Running compile:
-Working directory:  /tmp/tmp6rp4522t
-Command line:  cc /tmp/tmp6rp4522t/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpz61z7dkf
+Command line:  cc /tmp/tmpz61z7dkf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -742,8 +742,8 @@ Compiler stderr:
  
 Has header "sys/statvfs.h" : YES
 Running compile:
-Working directory:  /tmp/tmp3343fpej
-Command line:  cc /tmp/tmp3343fpej/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpn6z8f5qm
+Command line:  cc /tmp/tmpn6z8f5qm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -760,8 +760,8 @@ Compiler stderr:
  
 Has header "sys/sysctl.h" : YES
 Running compile:
-Working directory:  /tmp/tmp7yr43933
-Command line:  cc /tmp/tmp7yr43933/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp2vbfad_k
+Command line:  cc /tmp/tmp2vbfad_k/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -778,8 +778,8 @@ Compiler stderr:
  
 Has header "sys/time.h" : YES
 Running compile:
-Working directory:  /tmp/tmpz9gqulqb
-Command line:  cc /tmp/tmpz9gqulqb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp62sd8agj
+Command line:  cc /tmp/tmp62sd8agj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -796,8 +796,8 @@ Compiler stderr:
  
 Has header "sys/times.h" : YES
 Running compile:
-Working directory:  /tmp/tmp_g0tudsy
-Command line:  cc /tmp/tmp_g0tudsy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp_eo3hgei
+Command line:  cc /tmp/tmp_eo3hgei/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -814,8 +814,8 @@ Compiler stderr:
  
 Has header "sys/types.h" : YES
 Running compile:
-Working directory:  /tmp/tmp2o71_c98
-Command line:  cc /tmp/tmp2o71_c98/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpcmadaha_
+Command line:  cc /tmp/tmpcmadaha_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -832,8 +832,8 @@ Compiler stderr:
  
 Has header "sys/uio.h" : YES
 Running compile:
-Working directory:  /tmp/tmpk1ljj5e9
-Command line:  cc /tmp/tmpk1ljj5e9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp3riywekd
+Command line:  cc /tmp/tmp3riywekd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -850,8 +850,8 @@ Compiler stderr:
  
 Has header "sys/vfs.h" : YES
 Running compile:
-Working directory:  /tmp/tmpoa0hiryi
-Command line:  cc /tmp/tmpoa0hiryi/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmplsj1vvpv
+Command line:  cc /tmp/tmplsj1vvpv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -865,14 +865,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpoa0hiryi/testfile.c:4:12: error: #error "Header 'sys/vfstab.h' could not be found"
+ /tmp/tmplsj1vvpv/testfile.c:4:12: error: #error "Header 'sys/vfstab.h' could not be found"
            #error "Header 'sys/vfstab.h' could not be found"
             ^~~~~
 
 Has header "sys/vfstab.h" : NO
 Running compile:
-Working directory:  /tmp/tmppwtm2m_m
-Command line:  cc /tmp/tmppwtm2m_m/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp_ogq01m7
+Command line:  cc /tmp/tmp_ogq01m7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -886,14 +886,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmppwtm2m_m/testfile.c:4:12: error: #error "Header 'sys/vmount.h' could not be found"
+ /tmp/tmp_ogq01m7/testfile.c:4:12: error: #error "Header 'sys/vmount.h' could not be found"
            #error "Header 'sys/vmount.h' could not be found"
             ^~~~~
 
 Has header "sys/vmount.h" : NO
 Running compile:
-Working directory:  /tmp/tmpm804h8nw
-Command line:  cc /tmp/tmpm804h8nw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpg_9x2oty
+Command line:  cc /tmp/tmpg_9x2oty/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -910,8 +910,8 @@ Compiler stderr:
  
 Has header "sys/wait.h" : YES
 Running compile:
-Working directory:  /tmp/tmp1wswxsp2
-Command line:  cc /tmp/tmp1wswxsp2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpqdipwzna
+Command line:  cc /tmp/tmpqdipwzna/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -928,8 +928,8 @@ Compiler stderr:
  
 Has header "termios.h" : YES
 Running compile:
-Working directory:  /tmp/tmpiguiioeo
-Command line:  cc /tmp/tmpiguiioeo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpnf_qf7wt
+Command line:  cc /tmp/tmpnf_qf7wt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -946,8 +946,8 @@ Compiler stderr:
  
 Has header "unistd.h" : YES
 Running compile:
-Working directory:  /tmp/tmps8e5347l
-Command line:  cc /tmp/tmps8e5347l/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmp5cdbjeqd
+Command line:  cc /tmp/tmp5cdbjeqd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -964,8 +964,8 @@ Compiler stderr:
  
 Has header "values.h" : YES
 Running compile:
-Working directory:  /tmp/tmpug2zwwuz
-Command line:  cc /tmp/tmpug2zwwuz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpifkwrfml
+Command line:  cc /tmp/tmpifkwrfml/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -982,8 +982,8 @@ Compiler stderr:
  
 Has header "wchar.h" : YES
 Running compile:
-Working directory:  /tmp/tmp6l396vrm
-Command line:  cc /tmp/tmp6l396vrm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpoyqu4h1y
+Command line:  cc /tmp/tmpoyqu4h1y/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -997,14 +997,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp6l396vrm/testfile.c:4:12: error: #error "Header 'xlocale.h' could not be found"
+ /tmp/tmpoyqu4h1y/testfile.c:4:12: error: #error "Header 'xlocale.h' could not be found"
            #error "Header 'xlocale.h' could not be found"
             ^~~~~
 
 Has header "xlocale.h" : NO
 Running compile:
-Working directory:  /tmp/tmpy9073067
-Command line:  cc /tmp/tmpy9073067/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpy9073067/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpetthm7mn
+Command line:  cc /tmp/tmpetthm7mn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpetthm7mn/output.obj -O0 -std=gnu99 
 
 Code:
  #include <malloc.h>
@@ -1014,8 +1014,8 @@ Compiler stderr:
  
 Checking if "malloc.h" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpbngr0b4x
-Command line:  cc /tmp/tmpbngr0b4x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpzvmfwq84
+Command line:  cc /tmp/tmpzvmfwq84/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -1032,8 +1032,8 @@ Compiler stderr:
  
 Has header "linux/netlink.h" : YES
 Running compile:
-Working directory:  /tmp/tmpk2_deydh
-Command line:  cc /tmp/tmpk2_deydh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpk2_deydh/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpe7zjgble
+Command line:  cc /tmp/tmpe7zjgble/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpe7zjgble/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -1050,8 +1050,8 @@ Compiler stderr:
  
 Header <locale.h> has symbol "LC_MESSAGES" : YES
 Running compile:
-Working directory:  /tmp/tmpa92wwl_s
-Command line:  cc /tmp/tmpa92wwl_s/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpa92wwl_s/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp0jrmu5kt
+Command line:  cc /tmp/tmp0jrmu5kt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp0jrmu5kt/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1103,16 +1103,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpa92wwl_s/testfile.c: In function 'bar':
-/tmp/tmpa92wwl_s/testfile.c:44:17: error: 'struct stat' has no member named 'st_mtimensec'; did you mean 'st_mtim'?
+ /tmp/tmp0jrmu5kt/testfile.c: In function 'bar':
+/tmp/tmp0jrmu5kt/testfile.c:44:17: error: 'struct stat' has no member named 'st_mtimensec'; did you mean 'st_mtim'?
              foo.st_mtimensec;
                  ^~~~~~~~~~~~
                  st_mtim
 
 Checking whether type "struct stat" has member "st_mtimensec" : NO
 Running compile:
-Working directory:  /tmp/tmpd0zvahml
-Command line:  cc /tmp/tmpd0zvahml/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpd0zvahml/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpykuqipqa
+Command line:  cc /tmp/tmpykuqipqa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpykuqipqa/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1167,8 +1167,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_mtim.tv_nsec" : YES
 Running compile:
-Working directory:  /tmp/tmpq4i1hioy
-Command line:  cc /tmp/tmpq4i1hioy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpq4i1hioy/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpquu_o_7a
+Command line:  cc /tmp/tmpquu_o_7a/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpquu_o_7a/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1221,16 +1221,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpq4i1hioy/testfile.c: In function 'bar':
-/tmp/tmpq4i1hioy/testfile.c:45:17: error: 'struct stat' has no member named 'st_atimensec'; did you mean 'st_atim'?
+ /tmp/tmpquu_o_7a/testfile.c: In function 'bar':
+/tmp/tmpquu_o_7a/testfile.c:45:17: error: 'struct stat' has no member named 'st_atimensec'; did you mean 'st_atim'?
              foo.st_atimensec;
                  ^~~~~~~~~~~~
                  st_atim
 
 Checking whether type "struct stat" has member "st_atimensec" : NO
 Running compile:
-Working directory:  /tmp/tmpe9438ky6
-Command line:  cc /tmp/tmpe9438ky6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpe9438ky6/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpb0iaofnq
+Command line:  cc /tmp/tmpb0iaofnq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpb0iaofnq/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1286,8 +1286,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_atim.tv_nsec" : YES
 Running compile:
-Working directory:  /tmp/tmpiqryt9wh
-Command line:  cc /tmp/tmpiqryt9wh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpiqryt9wh/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpl7qxt8ex
+Command line:  cc /tmp/tmpl7qxt8ex/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpl7qxt8ex/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1341,16 +1341,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpiqryt9wh/testfile.c: In function 'bar':
-/tmp/tmpiqryt9wh/testfile.c:46:17: error: 'struct stat' has no member named 'st_ctimensec'; did you mean 'st_ctim'?
+ /tmp/tmpl7qxt8ex/testfile.c: In function 'bar':
+/tmp/tmpl7qxt8ex/testfile.c:46:17: error: 'struct stat' has no member named 'st_ctimensec'; did you mean 'st_ctim'?
              foo.st_ctimensec;
                  ^~~~~~~~~~~~
                  st_ctim
 
 Checking whether type "struct stat" has member "st_ctimensec" : NO
 Running compile:
-Working directory:  /tmp/tmpchayju1d
-Command line:  cc /tmp/tmpchayju1d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpchayju1d/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpubjroyvp
+Command line:  cc /tmp/tmpubjroyvp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpubjroyvp/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1407,8 +1407,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_ctim.tv_nsec" : YES
 Running compile:
-Working directory:  /tmp/tmpyvn90ljo
-Command line:  cc /tmp/tmpyvn90ljo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpyvn90ljo/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpvxsic4tq
+Command line:  cc /tmp/tmpvxsic4tq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvxsic4tq/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1463,16 +1463,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpyvn90ljo/testfile.c: In function 'bar':
-/tmp/tmpyvn90ljo/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtime'; did you mean 'st_blksize'?
+ /tmp/tmpvxsic4tq/testfile.c: In function 'bar':
+/tmp/tmpvxsic4tq/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtime'; did you mean 'st_blksize'?
              foo.st_birthtime;
                  ^~~~~~~~~~~~
                  st_blksize
 
 Checking whether type "struct stat" has member "st_birthtime" : NO
 Running compile:
-Working directory:  /tmp/tmp20528bfd
-Command line:  cc /tmp/tmp20528bfd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp20528bfd/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpvc3avk3j
+Command line:  cc /tmp/tmpvc3avk3j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvc3avk3j/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1527,15 +1527,15 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp20528bfd/testfile.c: In function 'bar':
-/tmp/tmp20528bfd/testfile.c:47:16: error: 'struct stat' has no member named 'st_birthtimensec'
+ /tmp/tmpvc3avk3j/testfile.c: In function 'bar':
+/tmp/tmpvc3avk3j/testfile.c:47:16: error: 'struct stat' has no member named 'st_birthtimensec'
              foo.st_birthtimensec;
                 ^
 
 Checking whether type "struct stat" has member "st_birthtimensec" : NO
 Running compile:
-Working directory:  /tmp/tmpi14n3rkh
-Command line:  cc /tmp/tmpi14n3rkh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpi14n3rkh/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpssentbre
+Command line:  cc /tmp/tmpssentbre/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpssentbre/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1590,16 +1590,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpi14n3rkh/testfile.c: In function 'bar':
-/tmp/tmpi14n3rkh/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtim'; did you mean 'st_atim'?
+ /tmp/tmpssentbre/testfile.c: In function 'bar':
+/tmp/tmpssentbre/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtim'; did you mean 'st_atim'?
              foo.st_birthtim;
                  ^~~~~~~~~~~
                  st_atim
 
 Checking whether type "struct stat" has member "st_birthtim" : NO
 Running compile:
-Working directory:  /tmp/tmpoqjvoo82
-Command line:  cc /tmp/tmpoqjvoo82/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpoqjvoo82/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpcba7t91f
+Command line:  cc /tmp/tmpcba7t91f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpcba7t91f/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1654,16 +1654,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpoqjvoo82/testfile.c: In function 'bar':
-/tmp/tmpoqjvoo82/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtim'; did you mean 'st_atim'?
+ /tmp/tmpcba7t91f/testfile.c: In function 'bar':
+/tmp/tmpcba7t91f/testfile.c:47:17: error: 'struct stat' has no member named 'st_birthtim'; did you mean 'st_atim'?
              foo.st_birthtim.tv_nsec;
                  ^~~~~~~~~~~
                  st_atim
 
 Checking whether type "struct stat" has member "st_birthtim.tv_nsec" : NO
 Running compile:
-Working directory:  /tmp/tmp1xyd8ave
-Command line:  cc /tmp/tmp1xyd8ave/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp1xyd8ave/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpbpb6kxzm
+Command line:  cc /tmp/tmpbpb6kxzm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpbpb6kxzm/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1736,8 +1736,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_blksize" : YES
 Running compile:
-Working directory:  /tmp/tmpy24dlw3p
-Command line:  cc /tmp/tmpy24dlw3p/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpy24dlw3p/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp6ejs2whi
+Command line:  cc /tmp/tmp6ejs2whi/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp6ejs2whi/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1811,8 +1811,8 @@ Compiler stderr:
  
 Checking whether type "struct stat" has member "st_blocks" : YES
 Running compile:
-Working directory:  /tmp/tmp9ob0klah
-Command line:  cc /tmp/tmp9ob0klah/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9ob0klah/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpdyom_f58
+Command line:  cc /tmp/tmpdyom_f58/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdyom_f58/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1884,16 +1884,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp9ob0klah/testfile.c: In function 'bar':
-/tmp/tmp9ob0klah/testfile.c:64:17: error: 'struct statfs' has no member named 'f_fstypename'; did you mean 'f_type'?
+ /tmp/tmpdyom_f58/testfile.c: In function 'bar':
+/tmp/tmpdyom_f58/testfile.c:64:17: error: 'struct statfs' has no member named 'f_fstypename'; did you mean 'f_type'?
              foo.f_fstypename;
                  ^~~~~~~~~~~~
                  f_type
 
 Checking whether type "struct statfs" has member "f_fstypename" : NO
 Running compile:
-Working directory:  /tmp/tmpumz_nh4o
-Command line:  cc /tmp/tmpumz_nh4o/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpumz_nh4o/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp36d7xbmd
+Command line:  cc /tmp/tmp36d7xbmd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp36d7xbmd/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -1968,8 +1968,8 @@ Compiler stderr:
  
 Checking whether type "struct statfs" has member "f_bavail" : YES
 Running compile:
-Working directory:  /tmp/tmps3ldyt_v
-Command line:  cc /tmp/tmps3ldyt_v/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmps3ldyt_v/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpmnd8nrjm
+Command line:  cc /tmp/tmpmnd8nrjm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmnd8nrjm/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -2031,8 +2031,8 @@ Compiler stderr:
  
 Checking whether type "struct dirent" has member "d_type" : YES
 Running compile:
-Working directory:  /tmp/tmpldewy1l3
-Command line:  cc /tmp/tmpldewy1l3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpldewy1l3/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpd_xkj7py
+Command line:  cc /tmp/tmpd_xkj7py/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpd_xkj7py/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -2091,16 +2091,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpldewy1l3/testfile.c: In function 'bar':
-/tmp/tmpldewy1l3/testfile.c:51:17: error: 'struct statvfs' has no member named 'f_basetype'; did you mean 'f_bsize'?
+ /tmp/tmpd_xkj7py/testfile.c: In function 'bar':
+/tmp/tmpd_xkj7py/testfile.c:51:17: error: 'struct statvfs' has no member named 'f_basetype'; did you mean 'f_bsize'?
              foo.f_basetype;
                  ^~~~~~~~~~
                  f_bsize
 
 Checking whether type "struct statvfs" has member "f_basetype" : NO
 Running compile:
-Working directory:  /tmp/tmpkjujz5b6
-Command line:  cc /tmp/tmpkjujz5b6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpkjujz5b6/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp1wuui9rm
+Command line:  cc /tmp/tmp1wuui9rm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp1wuui9rm/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -2159,15 +2159,15 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpkjujz5b6/testfile.c: In function 'bar':
-/tmp/tmpkjujz5b6/testfile.c:51:16: error: 'struct statvfs' has no member named 'f_fstypename'
+ /tmp/tmp1wuui9rm/testfile.c: In function 'bar':
+/tmp/tmp1wuui9rm/testfile.c:51:16: error: 'struct statvfs' has no member named 'f_fstypename'
              foo.f_fstypename;
                 ^
 
 Checking whether type "struct statvfs" has member "f_fstypename" : NO
 Running compile:
-Working directory:  /tmp/tmpqw32yhbt
-Command line:  cc /tmp/tmpqw32yhbt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqw32yhbt/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpyprn7tzz
+Command line:  cc /tmp/tmpyprn7tzz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpyprn7tzz/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -2229,8 +2229,8 @@ Compiler stderr:
  
 Checking whether type "struct tm" has member "tm_gmtoff" : YES
 Running compile:
-Working directory:  /tmp/tmpzscjn07j
-Command line:  cc /tmp/tmpzscjn07j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpzscjn07j/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpouf9h8pq
+Command line:  cc /tmp/tmpouf9h8pq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpouf9h8pq/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -2290,16 +2290,16 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpzscjn07j/testfile.c: In function 'bar':
-/tmp/tmpzscjn07j/testfile.c:52:17: error: 'struct tm' has no member named '__tm_gmtoff'; did you mean 'tm_gmtoff'?
+ /tmp/tmpouf9h8pq/testfile.c: In function 'bar':
+/tmp/tmpouf9h8pq/testfile.c:52:17: error: 'struct tm' has no member named '__tm_gmtoff'; did you mean 'tm_gmtoff'?
              foo.__tm_gmtoff;
                  ^~~~~~~~~~~
                  tm_gmtoff
 
 Checking whether type "struct tm" has member "__tm_gmtoff" : NO
 Running compile:
-Working directory:  /tmp/tmp428q9qon
-Command line:  cc /tmp/tmp428q9qon/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp428q9qon/output.obj -O0 -Wduplicated-branches 
+Working directory:  /tmp/tmptqpylig9
+Command line:  cc /tmp/tmptqpylig9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptqpylig9/output.obj -O0 -Wduplicated-branches 
 
 Code:
  int i;
@@ -2310,8 +2310,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wduplicated-branches: YES
 Running compile:
-Working directory:  /tmp/tmp2m0kr5ht
-Command line:  cc /tmp/tmp2m0kr5ht/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp2m0kr5ht/output.obj -O0 -Wimplicit-fallthrough 
+Working directory:  /tmp/tmp3unsdg7c
+Command line:  cc /tmp/tmp3unsdg7c/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp3unsdg7c/output.obj -O0 -Wimplicit-fallthrough 
 
 Code:
  int i;
@@ -2322,8 +2322,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wimplicit-fallthrough: YES
 Running compile:
-Working directory:  /tmp/tmpa5tlh5v1
-Command line:  cc /tmp/tmpa5tlh5v1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpa5tlh5v1/output.obj -O0 -Wmisleading-indentation 
+Working directory:  /tmp/tmpkr5aqtbe
+Command line:  cc /tmp/tmpkr5aqtbe/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpkr5aqtbe/output.obj -O0 -Wmisleading-indentation 
 
 Code:
  int i;
@@ -2334,8 +2334,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wmisleading-indentation: YES
 Running compile:
-Working directory:  /tmp/tmpdjniy53q
-Command line:  cc /tmp/tmpdjniy53q/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdjniy53q/output.obj -O0 -Wstrict-prototypes 
+Working directory:  /tmp/tmp9m6es51u
+Command line:  cc /tmp/tmp9m6es51u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9m6es51u/output.obj -O0 -Wstrict-prototypes 
 
 Code:
  int i;
@@ -2346,8 +2346,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wstrict-prototypes: YES
 Running compile:
-Working directory:  /tmp/tmpy9z_s4ui
-Command line:  cc /tmp/tmpy9z_s4ui/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpy9z_s4ui/output.obj -O0 -Wunused 
+Working directory:  /tmp/tmpm40pl2zv
+Command line:  cc /tmp/tmpm40pl2zv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpm40pl2zv/output.obj -O0 -Wunused 
 
 Code:
  int i;
@@ -2358,8 +2358,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wunused: YES
 Running compile:
-Working directory:  /tmp/tmpe0qf5j5w
-Command line:  cc /tmp/tmpe0qf5j5w/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpe0qf5j5w/output.obj -O0 -Wno-unused-parameter -Wunused-parameter 
+Working directory:  /tmp/tmpvi5z_w1r
+Command line:  cc /tmp/tmpvi5z_w1r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvi5z_w1r/output.obj -O0 -Wno-unused-parameter -Wunused-parameter 
 
 Code:
  int i;
@@ -2370,8 +2370,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES
 Running compile:
-Working directory:  /tmp/tmpvqf5ul4e
-Command line:  cc /tmp/tmpvqf5ul4e/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvqf5ul4e/output.obj -O0 -Wno-bad-function-cast -Wbad-function-cast 
+Working directory:  /tmp/tmp9ctfwfci
+Command line:  cc /tmp/tmp9ctfwfci/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9ctfwfci/output.obj -O0 -Wno-bad-function-cast -Wbad-function-cast 
 
 Code:
  int i;
@@ -2382,8 +2382,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-bad-function-cast -Wbad-function-cast: YES
 Running compile:
-Working directory:  /tmp/tmpol116863
-Command line:  cc /tmp/tmpol116863/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpol116863/output.obj -O0 -Wno-cast-function-type -Wcast-function-type 
+Working directory:  /tmp/tmpla77zzss
+Command line:  cc /tmp/tmpla77zzss/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpla77zzss/output.obj -O0 -Wno-cast-function-type -Wcast-function-type 
 
 Code:
  int i;
@@ -2394,8 +2394,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-cast-function-type -Wcast-function-type: YES
 Running compile:
-Working directory:  /tmp/tmpwnroau82
-Command line:  cc /tmp/tmpwnroau82/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpwnroau82/output.obj -O0 -Wno-pedantic -Wpedantic 
+Working directory:  /tmp/tmpmxnxtn5d
+Command line:  cc /tmp/tmpmxnxtn5d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmxnxtn5d/output.obj -O0 -Wno-pedantic -Wpedantic 
 
 Code:
  int i;
@@ -2406,8 +2406,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Wno-pedantic -Wpedantic: YES
 Running compile:
-Working directory:  /tmp/tmp9wfi7axw
-Command line:  cc /tmp/tmp9wfi7axw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9wfi7axw/output.obj -O0 -Werror=declaration-after-statement 
+Working directory:  /tmp/tmp1c901y8u
+Command line:  cc /tmp/tmp1c901y8u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp1c901y8u/output.obj -O0 -Werror=declaration-after-statement 
 
 Code:
  int i;
@@ -2418,8 +2418,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=declaration-after-statement: YES
 Running compile:
-Working directory:  /tmp/tmp3v4qbrkh
-Command line:  cc /tmp/tmp3v4qbrkh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp3v4qbrkh/output.obj -O0 -Werror=format=2 
+Working directory:  /tmp/tmpz16e0rzs
+Command line:  cc /tmp/tmpz16e0rzs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpz16e0rzs/output.obj -O0 -Werror=format=2 
 
 Code:
  int i;
@@ -2430,8 +2430,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=format=2: YES
 Running compile:
-Working directory:  /tmp/tmp8sg1v1h8
-Command line:  cc /tmp/tmp8sg1v1h8/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp8sg1v1h8/output.obj -O0 -Werror=implicit-function-declaration 
+Working directory:  /tmp/tmp8_jaw6fa
+Command line:  cc /tmp/tmp8_jaw6fa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp8_jaw6fa/output.obj -O0 -Werror=implicit-function-declaration 
 
 Code:
  int i;
@@ -2442,8 +2442,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=implicit-function-declaration: YES
 Running compile:
-Working directory:  /tmp/tmpya4s0v8r
-Command line:  cc /tmp/tmpya4s0v8r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpya4s0v8r/output.obj -O0 -Werror=init-self 
+Working directory:  /tmp/tmpfo9uqpq3
+Command line:  cc /tmp/tmpfo9uqpq3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpfo9uqpq3/output.obj -O0 -Werror=init-self 
 
 Code:
  int i;
@@ -2454,8 +2454,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=init-self: YES
 Running compile:
-Working directory:  /tmp/tmphyb2js8f
-Command line:  cc /tmp/tmphyb2js8f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmphyb2js8f/output.obj -O0 -Werror=missing-include-dirs 
+Working directory:  /tmp/tmpp0p98ti9
+Command line:  cc /tmp/tmpp0p98ti9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpp0p98ti9/output.obj -O0 -Werror=missing-include-dirs 
 
 Code:
  int i;
@@ -2466,8 +2466,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=missing-include-dirs: YES
 Running compile:
-Working directory:  /tmp/tmp6ue8rqjf
-Command line:  cc /tmp/tmp6ue8rqjf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp6ue8rqjf/output.obj -O0 -Werror=missing-prototypes 
+Working directory:  /tmp/tmpjmpn719a
+Command line:  cc /tmp/tmpjmpn719a/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjmpn719a/output.obj -O0 -Werror=missing-prototypes 
 
 Code:
  int i;
@@ -2478,8 +2478,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=missing-prototypes: YES
 Running compile:
-Working directory:  /tmp/tmpysq9i4o0
-Command line:  cc /tmp/tmpysq9i4o0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpysq9i4o0/output.obj -O0 -Werror=pointer-arith 
+Working directory:  /tmp/tmp516u00mr
+Command line:  cc /tmp/tmp516u00mr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp516u00mr/output.obj -O0 -Werror=pointer-arith 
 
 Code:
  int i;
@@ -2490,8 +2490,8 @@ Compiler stderr:
  
 Compiler for C supports arguments -Werror=pointer-arith: YES
 Running compile:
-Working directory:  /tmp/tmpjm4mh17r
-Command line:  cc /tmp/tmpjm4mh17r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjm4mh17r/output.exe -O0 -Wl,--fatal-warnings 
+Working directory:  /tmp/tmpi4bq5sw6
+Command line:  cc /tmp/tmpi4bq5sw6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpi4bq5sw6/output.exe -O0 -Wl,--fatal-warnings 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -2500,8 +2500,8 @@ Compiler stdout:
 Compiler stderr:
  
 Running compile:
-Working directory:  /tmp/tmp00vg32gj
-Command line:  cc /tmp/tmp00vg32gj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp00vg32gj/output.exe -O0 -Wl,--fatal-warnings -Wl,-z,nodelete 
+Working directory:  /tmp/tmp422uv20i
+Command line:  cc /tmp/tmp422uv20i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp422uv20i/output.exe -O0 -Wl,--fatal-warnings -Wl,-z,nodelete 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -2511,8 +2511,8 @@ Compiler stderr:
  
 Compiler for C supports link arguments -Wl,-z,nodelete: YES
 Running compile:
-Working directory:  /tmp/tmp06g8z56w
-Command line:  cc /tmp/tmp06g8z56w/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp06g8z56w/output.exe -O0 -Wl,--fatal-warnings -Wl,-Bsymbolic-functions 
+Working directory:  /tmp/tmpkpj2z_3u
+Command line:  cc /tmp/tmpkpj2z_3u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpkpj2z_3u/output.exe -O0 -Wl,--fatal-warnings -Wl,-Bsymbolic-functions 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -2522,8 +2522,8 @@ Compiler stderr:
  
 Compiler for C supports link arguments -Wl,-Bsymbolic-functions: YES
 Running compile:
-Working directory:  /tmp/tmp_9b7l53y
-Command line:  cc /tmp/tmp_9b7l53y/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp_9b7l53y/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpqdja7o8d
+Command line:  cc /tmp/tmpqdja7o8d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqdja7o8d/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2550,8 +2550,8 @@ Compiler stderr:
  
 Checking for function "endmntent" : YES
 Running compile:
-Working directory:  /tmp/tmpk3i7h0ml
-Command line:  cc /tmp/tmpk3i7h0ml/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpk3i7h0ml/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpr5y4d6mo
+Command line:  cc /tmp/tmpr5y4d6mo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpr5y4d6mo/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2578,8 +2578,8 @@ Compiler stderr:
  
 Checking for function "endservent" : YES
 Running compile:
-Working directory:  /tmp/tmphl0bx5pp
-Command line:  cc /tmp/tmphl0bx5pp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphl0bx5pp/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpol8anvj5
+Command line:  cc /tmp/tmpol8anvj5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpol8anvj5/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2606,8 +2606,8 @@ Compiler stderr:
  
 Checking for function "fallocate" : YES
 Running compile:
-Working directory:  /tmp/tmpte_2pc_0
-Command line:  cc /tmp/tmpte_2pc_0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpte_2pc_0/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpnffa6apu
+Command line:  cc /tmp/tmpnffa6apu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnffa6apu/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2634,8 +2634,8 @@ Compiler stderr:
  
 Checking for function "fchmod" : YES
 Running compile:
-Working directory:  /tmp/tmplugz_zb7
-Command line:  cc /tmp/tmplugz_zb7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmplugz_zb7/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp3aq3urln
+Command line:  cc /tmp/tmp3aq3urln/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3aq3urln/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2662,8 +2662,8 @@ Compiler stderr:
  
 Checking for function "fchown" : YES
 Running compile:
-Working directory:  /tmp/tmpleikqol7
-Command line:  cc /tmp/tmpleikqol7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpleikqol7/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpwmzbzze2
+Command line:  cc /tmp/tmpwmzbzze2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpwmzbzze2/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2687,13 +2687,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/cc04dNMm.o: in function `main':
+ /usr/bin/ld: /tmp/ccS5qvE6.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `fdwalk'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpahadibb6
-Command line:  cc /tmp/tmpahadibb6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpahadibb6/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp9xday9og
+Command line:  cc /tmp/tmp9xday9og/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp9xday9og/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2718,17 +2718,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpahadibb6/testfile.c: In function 'main':
-/tmp/tmpahadibb6/testfile.c:14:17: error: '__builtin_fdwalk' undeclared (first use in this function); did you mean '__builtin_fdiml'?
+ /tmp/tmp9xday9og/testfile.c: In function 'main':
+/tmp/tmp9xday9og/testfile.c:14:17: error: '__builtin_fdwalk' undeclared (first use in this function); did you mean '__builtin_fdiml'?
                  __builtin_fdwalk;
                  ^~~~~~~~~~~~~~~~
                  __builtin_fdiml
-/tmp/tmpahadibb6/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp9xday9og/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "fdwalk" : NO
 Running compile:
-Working directory:  /tmp/tmpq7er_f5q
-Command line:  cc /tmp/tmpq7er_f5q/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpq7er_f5q/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmps28zoy2n
+Command line:  cc /tmp/tmps28zoy2n/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmps28zoy2n/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2755,8 +2755,8 @@ Compiler stderr:
  
 Checking for function "fsync" : YES
 Running compile:
-Working directory:  /tmp/tmpsmlex8cj
-Command line:  cc /tmp/tmpsmlex8cj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpsmlex8cj/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmptkw4ncep
+Command line:  cc /tmp/tmptkw4ncep/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmptkw4ncep/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2783,8 +2783,8 @@ Compiler stderr:
  
 Checking for function "getauxval" : YES
 Running compile:
-Working directory:  /tmp/tmpcn99yhaw
-Command line:  cc /tmp/tmpcn99yhaw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcn99yhaw/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvtf5xrhk
+Command line:  cc /tmp/tmpvtf5xrhk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvtf5xrhk/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2811,8 +2811,8 @@ Compiler stderr:
  
 Checking for function "getc_unlocked" : YES
 Running compile:
-Working directory:  /tmp/tmpxniy68h_
-Command line:  cc /tmp/tmpxniy68h_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxniy68h_/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjb0zahrl
+Command line:  cc /tmp/tmpjb0zahrl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjb0zahrl/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2836,13 +2836,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccXkFCO7.o: in function `main':
+ /usr/bin/ld: /tmp/ccPDUilS.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `getfsstat'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpdzegpz12
-Command line:  cc /tmp/tmpdzegpz12/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpdzegpz12/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvtu8cqys
+Command line:  cc /tmp/tmpvtu8cqys/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvtu8cqys/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2867,17 +2867,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpdzegpz12/testfile.c: In function 'main':
-/tmp/tmpdzegpz12/testfile.c:14:17: error: '__builtin_getfsstat' undeclared (first use in this function); did you mean '__builtin_gettext'?
+ /tmp/tmpvtu8cqys/testfile.c: In function 'main':
+/tmp/tmpvtu8cqys/testfile.c:14:17: error: '__builtin_getfsstat' undeclared (first use in this function); did you mean '__builtin_gettext'?
                  __builtin_getfsstat;
                  ^~~~~~~~~~~~~~~~~~~
                  __builtin_gettext
-/tmp/tmpdzegpz12/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpvtu8cqys/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "getfsstat" : NO
 Running compile:
-Working directory:  /tmp/tmpk8jjngx3
-Command line:  cc /tmp/tmpk8jjngx3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpk8jjngx3/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjq7deif7
+Command line:  cc /tmp/tmpjq7deif7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjq7deif7/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2904,8 +2904,8 @@ Compiler stderr:
  
 Checking for function "getgrgid_r" : YES
 Running compile:
-Working directory:  /tmp/tmp45og546b
-Command line:  cc /tmp/tmp45og546b/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp45og546b/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp0f8enps0
+Command line:  cc /tmp/tmp0f8enps0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0f8enps0/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2932,8 +2932,8 @@ Compiler stderr:
  
 Checking for function "getmntent_r" : YES
 Running compile:
-Working directory:  /tmp/tmp0bmouyh0
-Command line:  cc /tmp/tmp0bmouyh0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0bmouyh0/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpcany44x0
+Command line:  cc /tmp/tmpcany44x0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcany44x0/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2960,8 +2960,8 @@ Compiler stderr:
  
 Checking for function "getpwuid_r" : YES
 Running compile:
-Working directory:  /tmp/tmp0iraj3ic
-Command line:  cc /tmp/tmp0iraj3ic/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0iraj3ic/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpzc3vbxmg
+Command line:  cc /tmp/tmpzc3vbxmg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpzc3vbxmg/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -2988,8 +2988,8 @@ Compiler stderr:
  
 Checking for function "getresuid" : YES
 Running compile:
-Working directory:  /tmp/tmp7wtk5nbo
-Command line:  cc /tmp/tmp7wtk5nbo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp7wtk5nbo/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmprudubt22
+Command line:  cc /tmp/tmprudubt22/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmprudubt22/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3013,13 +3013,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccXpJyKX.o: in function `main':
+ /usr/bin/ld: /tmp/ccWZBQ1C.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `getvfsstat'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpe1clo8o_
-Command line:  cc /tmp/tmpe1clo8o_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpe1clo8o_/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpgll8jzdb
+Command line:  cc /tmp/tmpgll8jzdb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpgll8jzdb/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3044,17 +3044,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpe1clo8o_/testfile.c: In function 'main':
-/tmp/tmpe1clo8o_/testfile.c:14:17: error: '__builtin_getvfsstat' undeclared (first use in this function); did you mean '__builtin_gettext'?
+ /tmp/tmpgll8jzdb/testfile.c: In function 'main':
+/tmp/tmpgll8jzdb/testfile.c:14:17: error: '__builtin_getvfsstat' undeclared (first use in this function); did you mean '__builtin_gettext'?
                  __builtin_getvfsstat;
                  ^~~~~~~~~~~~~~~~~~~~
                  __builtin_gettext
-/tmp/tmpe1clo8o_/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpgll8jzdb/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "getvfsstat" : NO
 Running compile:
-Working directory:  /tmp/tmpkjh3efoy
-Command line:  cc /tmp/tmpkjh3efoy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpkjh3efoy/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp3l1kr0f0
+Command line:  cc /tmp/tmp3l1kr0f0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3l1kr0f0/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3081,8 +3081,8 @@ Compiler stderr:
  
 Checking for function "gmtime_r" : YES
 Running compile:
-Working directory:  /tmp/tmpqmh0j84i
-Command line:  cc /tmp/tmpqmh0j84i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqmh0j84i/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpc_073791
+Command line:  cc /tmp/tmpc_073791/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpc_073791/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3109,8 +3109,8 @@ Compiler stderr:
  
 Checking for function "hasmntopt" : YES
 Running compile:
-Working directory:  /tmp/tmpxdddzvaw
-Command line:  cc /tmp/tmpxdddzvaw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxdddzvaw/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpyc6j8vpw
+Command line:  cc /tmp/tmpyc6j8vpw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyc6j8vpw/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3137,8 +3137,8 @@ Compiler stderr:
  
 Checking for function "inotify_init1" : YES
 Running compile:
-Working directory:  /tmp/tmp8otk4qbo
-Command line:  cc /tmp/tmp8otk4qbo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp8otk4qbo/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpncuyttgh
+Command line:  cc /tmp/tmpncuyttgh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpncuyttgh/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3162,13 +3162,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccZBrOOv.o: in function `main':
+ /usr/bin/ld: /tmp/ccsNYjVi.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `issetugid'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmp99zjlltb
-Command line:  cc /tmp/tmp99zjlltb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp99zjlltb/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpqcb3u5kx
+Command line:  cc /tmp/tmpqcb3u5kx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqcb3u5kx/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3193,17 +3193,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp99zjlltb/testfile.c: In function 'main':
-/tmp/tmp99zjlltb/testfile.c:14:17: error: '__builtin_issetugid' undeclared (first use in this function); did you mean '__builtin_isdigit'?
+ /tmp/tmpqcb3u5kx/testfile.c: In function 'main':
+/tmp/tmpqcb3u5kx/testfile.c:14:17: error: '__builtin_issetugid' undeclared (first use in this function); did you mean '__builtin_isdigit'?
                  __builtin_issetugid;
                  ^~~~~~~~~~~~~~~~~~~
                  __builtin_isdigit
-/tmp/tmp99zjlltb/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpqcb3u5kx/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "issetugid" : NO
 Running compile:
-Working directory:  /tmp/tmpoc49e3yk
-Command line:  cc /tmp/tmpoc49e3yk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpoc49e3yk/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpyximkrkx
+Command line:  cc /tmp/tmpyximkrkx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyximkrkx/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3227,13 +3227,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccROlfwJ.o: in function `main':
+ /usr/bin/ld: /tmp/ccq5Nbox.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `kevent'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpvae_5kdv
-Command line:  cc /tmp/tmpvae_5kdv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvae_5kdv/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp2_y98792
+Command line:  cc /tmp/tmp2_y98792/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp2_y98792/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3258,17 +3258,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpvae_5kdv/testfile.c: In function 'main':
-/tmp/tmpvae_5kdv/testfile.c:14:17: error: '__builtin_kevent' undeclared (first use in this function); did you mean '__builtin_irint'?
+ /tmp/tmp2_y98792/testfile.c: In function 'main':
+/tmp/tmp2_y98792/testfile.c:14:17: error: '__builtin_kevent' undeclared (first use in this function); did you mean '__builtin_irint'?
                  __builtin_kevent;
                  ^~~~~~~~~~~~~~~~
                  __builtin_irint
-/tmp/tmpvae_5kdv/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp2_y98792/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "kevent" : NO
 Running compile:
-Working directory:  /tmp/tmp0tdfkex2
-Command line:  cc /tmp/tmp0tdfkex2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0tdfkex2/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpqoyemmpz
+Command line:  cc /tmp/tmpqoyemmpz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqoyemmpz/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3292,13 +3292,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccbisyQZ.o: in function `main':
+ /usr/bin/ld: /tmp/cc4AToJP.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `kqueue'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpivzuyg67
-Command line:  cc /tmp/tmpivzuyg67/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpivzuyg67/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp6e6gu20a
+Command line:  cc /tmp/tmp6e6gu20a/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6e6gu20a/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3323,17 +3323,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpivzuyg67/testfile.c: In function 'main':
-/tmp/tmpivzuyg67/testfile.c:14:17: error: '__builtin_kqueue' undeclared (first use in this function); did you mean '__builtin_free'?
+ /tmp/tmp6e6gu20a/testfile.c: In function 'main':
+/tmp/tmp6e6gu20a/testfile.c:14:17: error: '__builtin_kqueue' undeclared (first use in this function); did you mean '__builtin_free'?
                  __builtin_kqueue;
                  ^~~~~~~~~~~~~~~~
                  __builtin_free
-/tmp/tmpivzuyg67/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp6e6gu20a/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "kqueue" : NO
 Running compile:
-Working directory:  /tmp/tmpqs1hmkvu
-Command line:  cc /tmp/tmpqs1hmkvu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqs1hmkvu/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp0tsdn4xr
+Command line:  cc /tmp/tmp0tsdn4xr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0tsdn4xr/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3357,17 +3357,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpqs1hmkvu/testfile.c:13:9: error: unknown type name 'fail'
+ /tmp/tmp0tsdn4xr/testfile.c:13:9: error: unknown type name 'fail'
          fail fail fail this function is not going to work
          ^~~~
-/tmp/tmpqs1hmkvu/testfile.c:13:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'fail'
+/tmp/tmp0tsdn4xr/testfile.c:13:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'fail'
          fail fail fail this function is not going to work
                    ^~~~
-/tmp/tmpqs1hmkvu/testfile.c:13:19: error: unknown type name 'fail'
+/tmp/tmp0tsdn4xr/testfile.c:13:19: error: unknown type name 'fail'
 
 Running compile:
-Working directory:  /tmp/tmpfwyenp0v
-Command line:  cc /tmp/tmpfwyenp0v/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfwyenp0v/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp_altqf73
+Command line:  cc /tmp/tmp_altqf73/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp_altqf73/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3392,17 +3392,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpfwyenp0v/testfile.c: In function 'main':
-/tmp/tmpfwyenp0v/testfile.c:14:17: error: '__builtin_lchmod' undeclared (first use in this function); did you mean '__builtin_fmod'?
+ /tmp/tmp_altqf73/testfile.c: In function 'main':
+/tmp/tmp_altqf73/testfile.c:14:17: error: '__builtin_lchmod' undeclared (first use in this function); did you mean '__builtin_fmod'?
                  __builtin_lchmod;
                  ^~~~~~~~~~~~~~~~
                  __builtin_fmod
-/tmp/tmpfwyenp0v/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp_altqf73/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "lchmod" : NO
 Running compile:
-Working directory:  /tmp/tmp8druky8x
-Command line:  cc /tmp/tmp8druky8x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp8druky8x/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp5lxthlaa
+Command line:  cc /tmp/tmp5lxthlaa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5lxthlaa/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3429,8 +3429,8 @@ Compiler stderr:
  
 Checking for function "lchown" : YES
 Running compile:
-Working directory:  /tmp/tmpin1g060u
-Command line:  cc /tmp/tmpin1g060u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpin1g060u/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmparpnu_63
+Command line:  cc /tmp/tmparpnu_63/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmparpnu_63/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3457,8 +3457,8 @@ Compiler stderr:
  
 Checking for function "link" : YES
 Running compile:
-Working directory:  /tmp/tmpva3uks9l
-Command line:  cc /tmp/tmpva3uks9l/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpva3uks9l/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpuajvtf1y
+Command line:  cc /tmp/tmpuajvtf1y/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpuajvtf1y/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3485,8 +3485,8 @@ Compiler stderr:
  
 Checking for function "localtime_r" : YES
 Running compile:
-Working directory:  /tmp/tmph2fpwk7d
-Command line:  cc /tmp/tmph2fpwk7d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmph2fpwk7d/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpaptcxz76
+Command line:  cc /tmp/tmpaptcxz76/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpaptcxz76/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3513,8 +3513,8 @@ Compiler stderr:
  
 Checking for function "lstat" : YES
 Running compile:
-Working directory:  /tmp/tmpl6qncj52
-Command line:  cc /tmp/tmpl6qncj52/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpl6qncj52/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpt_9kk4l2
+Command line:  cc /tmp/tmpt_9kk4l2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpt_9kk4l2/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3541,8 +3541,8 @@ Compiler stderr:
  
 Checking for function "mbrtowc" : YES
 Running compile:
-Working directory:  /tmp/tmpim_6zkyj
-Command line:  cc /tmp/tmpim_6zkyj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpim_6zkyj/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmphwjhp2qk
+Command line:  cc /tmp/tmphwjhp2qk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphwjhp2qk/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3569,8 +3569,8 @@ Compiler stderr:
  
 Checking for function "memalign" : YES
 Running compile:
-Working directory:  /tmp/tmp3zvzg3_3
-Command line:  cc /tmp/tmp3zvzg3_3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3zvzg3_3/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpkyo0wgrq
+Command line:  cc /tmp/tmpkyo0wgrq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpkyo0wgrq/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3597,8 +3597,8 @@ Compiler stderr:
  
 Checking for function "mmap" : YES
 Running compile:
-Working directory:  /tmp/tmp0yva3iaa
-Command line:  cc /tmp/tmp0yva3iaa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0yva3iaa/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpbcc3dx8s
+Command line:  cc /tmp/tmpbcc3dx8s/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbcc3dx8s/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3625,8 +3625,8 @@ Compiler stderr:
  
 Checking for function "newlocale" : YES
 Running compile:
-Working directory:  /tmp/tmp20g6_5_o
-Command line:  cc /tmp/tmp20g6_5_o/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp20g6_5_o/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpysthkbed
+Command line:  cc /tmp/tmpysthkbed/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpysthkbed/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3653,8 +3653,8 @@ Compiler stderr:
  
 Checking for function "pipe2" : YES
 Running compile:
-Working directory:  /tmp/tmp626f_mz6
-Command line:  cc /tmp/tmp626f_mz6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp626f_mz6/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpualdw_0j
+Command line:  cc /tmp/tmpualdw_0j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpualdw_0j/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3681,8 +3681,8 @@ Compiler stderr:
  
 Checking for function "poll" : YES
 Running compile:
-Working directory:  /tmp/tmp662m4ck_
-Command line:  cc /tmp/tmp662m4ck_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp662m4ck_/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpm_q0e82u
+Command line:  cc /tmp/tmpm_q0e82u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpm_q0e82u/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3709,8 +3709,8 @@ Compiler stderr:
  
 Checking for function "prlimit" : YES
 Running compile:
-Working directory:  /tmp/tmpgp_l8uxo
-Command line:  cc /tmp/tmpgp_l8uxo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpgp_l8uxo/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpmudzvpab
+Command line:  cc /tmp/tmpmudzvpab/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmudzvpab/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3737,8 +3737,8 @@ Compiler stderr:
  
 Checking for function "readlink" : YES
 Running compile:
-Working directory:  /tmp/tmpl8f6yqhv
-Command line:  cc /tmp/tmpl8f6yqhv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpl8f6yqhv/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp9puj1u_m
+Command line:  cc /tmp/tmp9puj1u_m/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp9puj1u_m/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3765,8 +3765,8 @@ Compiler stderr:
  
 Checking for function "recvmmsg" : YES
 Running compile:
-Working directory:  /tmp/tmpbqqp4w23
-Command line:  cc /tmp/tmpbqqp4w23/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbqqp4w23/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpoicxtxuu
+Command line:  cc /tmp/tmpoicxtxuu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpoicxtxuu/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3793,8 +3793,8 @@ Compiler stderr:
  
 Checking for function "sendmmsg" : YES
 Running compile:
-Working directory:  /tmp/tmprx38ncx1
-Command line:  cc /tmp/tmprx38ncx1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmprx38ncx1/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpycg96rtg
+Command line:  cc /tmp/tmpycg96rtg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpycg96rtg/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3821,8 +3821,8 @@ Compiler stderr:
  
 Checking for function "setenv" : YES
 Running compile:
-Working directory:  /tmp/tmpou9g9zke
-Command line:  cc /tmp/tmpou9g9zke/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpou9g9zke/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmprplklqho
+Command line:  cc /tmp/tmprplklqho/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmprplklqho/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3849,8 +3849,8 @@ Compiler stderr:
  
 Checking for function "setmntent" : YES
 Running compile:
-Working directory:  /tmp/tmpbtwcndlu
-Command line:  cc /tmp/tmpbtwcndlu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbtwcndlu/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpswu2cp_e
+Command line:  cc /tmp/tmpswu2cp_e/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpswu2cp_e/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3877,8 +3877,8 @@ Compiler stderr:
  
 Checking for function "strerror_r" : YES
 Running compile:
-Working directory:  /tmp/tmpe_nat60d
-Command line:  cc /tmp/tmpe_nat60d/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpe_nat60d/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpippj9q_0
+Command line:  cc /tmp/tmpippj9q_0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpippj9q_0/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3905,8 +3905,8 @@ Compiler stderr:
  
 Checking for function "strnlen" : YES
 Running compile:
-Working directory:  /tmp/tmpo48alx7f
-Command line:  cc /tmp/tmpo48alx7f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpo48alx7f/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpnqwvdk3u
+Command line:  cc /tmp/tmpnqwvdk3u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnqwvdk3u/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3933,8 +3933,8 @@ Compiler stderr:
  
 Checking for function "strsignal" : YES
 Running compile:
-Working directory:  /tmp/tmp97q3na57
-Command line:  cc /tmp/tmp97q3na57/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp97q3na57/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpa1r0voxc
+Command line:  cc /tmp/tmpa1r0voxc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpa1r0voxc/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3961,8 +3961,8 @@ Compiler stderr:
  
 Checking for function "strtod_l" : YES
 Running compile:
-Working directory:  /tmp/tmps4two7qz
-Command line:  cc /tmp/tmps4two7qz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmps4two7qz/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp5tqy09od
+Command line:  cc /tmp/tmp5tqy09od/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5tqy09od/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -3989,8 +3989,8 @@ Compiler stderr:
  
 Checking for function "strtoll_l" : YES
 Running compile:
-Working directory:  /tmp/tmpnekorwuu
-Command line:  cc /tmp/tmpnekorwuu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnekorwuu/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpglckael_
+Command line:  cc /tmp/tmpglckael_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpglckael_/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4017,8 +4017,8 @@ Compiler stderr:
  
 Checking for function "strtoull_l" : YES
 Running compile:
-Working directory:  /tmp/tmpd31k6vnt
-Command line:  cc /tmp/tmpd31k6vnt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpd31k6vnt/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp_i5qqzvr
+Command line:  cc /tmp/tmp_i5qqzvr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp_i5qqzvr/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4045,8 +4045,8 @@ Compiler stderr:
  
 Checking for function "symlink" : YES
 Running compile:
-Working directory:  /tmp/tmpfuouo8ho
-Command line:  cc /tmp/tmpfuouo8ho/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfuouo8ho/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmptf17biu2
+Command line:  cc /tmp/tmptf17biu2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmptf17biu2/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4073,8 +4073,8 @@ Compiler stderr:
  
 Checking for function "timegm" : YES
 Running compile:
-Working directory:  /tmp/tmp891jfa20
-Command line:  cc /tmp/tmp891jfa20/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp891jfa20/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpmwb0wj6t
+Command line:  cc /tmp/tmpmwb0wj6t/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmwb0wj6t/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4101,8 +4101,8 @@ Compiler stderr:
  
 Checking for function "unsetenv" : YES
 Running compile:
-Working directory:  /tmp/tmp964y92mz
-Command line:  cc /tmp/tmp964y92mz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp964y92mz/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpapcq9gua
+Command line:  cc /tmp/tmpapcq9gua/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpapcq9gua/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4129,8 +4129,8 @@ Compiler stderr:
  
 Checking for function "uselocale" : YES
 Running compile:
-Working directory:  /tmp/tmpyh71bmwg
-Command line:  cc /tmp/tmpyh71bmwg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyh71bmwg/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp48qf0qn5
+Command line:  cc /tmp/tmp48qf0qn5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp48qf0qn5/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4157,8 +4157,8 @@ Compiler stderr:
  
 Checking for function "utimes" : YES
 Running compile:
-Working directory:  /tmp/tmpge02fnet
-Command line:  cc /tmp/tmpge02fnet/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpge02fnet/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpgfgzmv92
+Command line:  cc /tmp/tmpgfgzmv92/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpgfgzmv92/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4185,8 +4185,8 @@ Compiler stderr:
  
 Checking for function "valloc" : YES
 Running compile:
-Working directory:  /tmp/tmpw3qntg0k
-Command line:  cc /tmp/tmpw3qntg0k/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpw3qntg0k/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmppl64hl21
+Command line:  cc /tmp/tmppl64hl21/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmppl64hl21/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4213,8 +4213,8 @@ Compiler stderr:
  
 Checking for function "vasprintf" : YES
 Running compile:
-Working directory:  /tmp/tmpyjxlz7ve
-Command line:  cc /tmp/tmpyjxlz7ve/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyjxlz7ve/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvms_ygvc
+Command line:  cc /tmp/tmpvms_ygvc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvms_ygvc/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4238,14 +4238,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpyjxlz7ve/testfile.c:10:14: warning: conflicting types for built-in function 'vsnprintf' [-Wbuiltin-declaration-mismatch]
+ /tmp/tmpvms_ygvc/testfile.c:10:14: warning: conflicting types for built-in function 'vsnprintf' [-Wbuiltin-declaration-mismatch]
          char vsnprintf ();
               ^~~~~~~~~
 
 Checking for function "vsnprintf" : YES
 Running compile:
-Working directory:  /tmp/tmpjxy2jjp0
-Command line:  cc /tmp/tmpjxy2jjp0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjxy2jjp0/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvx090f99
+Command line:  cc /tmp/tmpvx090f99/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvx090f99/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4272,8 +4272,8 @@ Compiler stderr:
  
 Checking for function "wcrtomb" : YES
 Running compile:
-Working directory:  /tmp/tmp130jp_4c
-Command line:  cc /tmp/tmp130jp_4c/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp130jp_4c/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp1hz1ofxo
+Command line:  cc /tmp/tmp1hz1ofxo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp1hz1ofxo/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4300,8 +4300,8 @@ Compiler stderr:
  
 Checking for function "wcslen" : YES
 Running compile:
-Working directory:  /tmp/tmpp4tdz2py
-Command line:  cc /tmp/tmpp4tdz2py/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpp4tdz2py/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp6sn67aad
+Command line:  cc /tmp/tmp6sn67aad/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6sn67aad/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4328,8 +4328,8 @@ Compiler stderr:
  
 Checking for function "wcsnlen" : YES
 Running compile:
-Working directory:  /tmp/tmps8ca0ywk
-Command line:  cc /tmp/tmps8ca0ywk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmps8ca0ywk/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmph5hgv225
+Command line:  cc /tmp/tmph5hgv225/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmph5hgv225/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4353,13 +4353,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/cc1Nfmjq.o: in function `main':
+ /usr/bin/ld: /tmp/ccLXSdq8.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `sysctlbyname'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpf1hibvrl
-Command line:  cc /tmp/tmpf1hibvrl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpf1hibvrl/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpfp75taha
+Command line:  cc /tmp/tmpfp75taha/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfp75taha/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4384,17 +4384,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpf1hibvrl/testfile.c: In function 'main':
-/tmp/tmpf1hibvrl/testfile.c:14:17: error: '__builtin_sysctlbyname' undeclared (first use in this function); did you mean '__builtin_scalbln'?
+ /tmp/tmpfp75taha/testfile.c: In function 'main':
+/tmp/tmpfp75taha/testfile.c:14:17: error: '__builtin_sysctlbyname' undeclared (first use in this function); did you mean '__builtin_scalbln'?
                  __builtin_sysctlbyname;
                  ^~~~~~~~~~~~~~~~~~~~~~
                  __builtin_scalbln
-/tmp/tmpf1hibvrl/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpfp75taha/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "sysctlbyname" : NO
 Running compile:
-Working directory:  /tmp/tmphebk4x39
-Command line:  cc /tmp/tmphebk4x39/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphebk4x39/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpauc9k32z
+Command line:  cc /tmp/tmpauc9k32z/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpauc9k32z/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4418,13 +4418,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccITWtwz.o: in function `main':
+ /usr/bin/ld: /tmp/ccdJ9Vvo.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `_NSGetEnviron'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpqmi7_rh2
-Command line:  cc /tmp/tmpqmi7_rh2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqmi7_rh2/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpit6i2dgl
+Command line:  cc /tmp/tmpit6i2dgl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpit6i2dgl/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4449,17 +4449,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpqmi7_rh2/testfile.c: In function 'main':
-/tmp/tmpqmi7_rh2/testfile.c:14:17: error: '__builtin__NSGetEnviron' undeclared (first use in this function); did you mean '__builtin_fegetenv'?
+ /tmp/tmpit6i2dgl/testfile.c: In function 'main':
+/tmp/tmpit6i2dgl/testfile.c:14:17: error: '__builtin__NSGetEnviron' undeclared (first use in this function); did you mean '__builtin_fegetenv'?
                  __builtin__NSGetEnviron;
                  ^~~~~~~~~~~~~~~~~~~~~~~
                  __builtin_fegetenv
-/tmp/tmpqmi7_rh2/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpit6i2dgl/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "_NSGetEnviron" : NO
 Running compile:
-Working directory:  /tmp/tmp2mrntmk2
-Command line:  cc /tmp/tmp2mrntmk2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp2mrntmk2/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmphdxjbp0v
+Command line:  cc /tmp/tmphdxjbp0v/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphdxjbp0v/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4486,8 +4486,8 @@ Compiler stderr:
  
 Checking for function "statvfs" : YES
 Running compile:
-Working directory:  /tmp/tmp2po4gn2u
-Command line:  cc /tmp/tmp2po4gn2u/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp2po4gn2u/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmphpahx5zl
+Command line:  cc /tmp/tmphpahx5zl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphpahx5zl/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4514,8 +4514,8 @@ Compiler stderr:
  
 Checking for function "statfs" : YES
 Running compile:
-Working directory:  /tmp/tmpimh0m7rj
-Command line:  cc /tmp/tmpimh0m7rj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpimh0m7rj/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp5n28magf
+Command line:  cc /tmp/tmp5n28magf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5n28magf/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4542,8 +4542,8 @@ Compiler stderr:
  
 Checking for function "if_indextoname" : YES
 Running compile:
-Working directory:  /tmp/tmprvvnuw00
-Command line:  cc /tmp/tmprvvnuw00/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmprvvnuw00/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjti64hfa
+Command line:  cc /tmp/tmpjti64hfa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjti64hfa/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4570,8 +4570,8 @@ Compiler stderr:
  
 Checking for function "if_nametoindex" : YES
 Running compile:
-Working directory:  /tmp/tmp3g3sv8kg
-Command line:  cc /tmp/tmp3g3sv8kg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3g3sv8kg/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvkd1m8a4
+Command line:  cc /tmp/tmpvkd1m8a4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvkd1m8a4/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4598,8 +4598,8 @@ Compiler stderr:
  
 Checking for function "splice" : YES
 Running compile:
-Working directory:  /tmp/tmp30av47sy
-Command line:  cc /tmp/tmp30av47sy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp30av47sy/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpxy43g090
+Command line:  cc /tmp/tmpxy43g090/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxy43g090/output.exe -O0 -std=gnu99 
 
 Code:
  #include <string.h>
@@ -4620,8 +4620,8 @@ Compiler stderr:
  
 Checking for function "stpcpy" : YES
 Running compile:
-Working directory:  /tmp/tmpewxhxec1
-Command line:  cc /tmp/tmpewxhxec1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpewxhxec1/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpj6pv7sjs
+Command line:  cc /tmp/tmpj6pv7sjs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpj6pv7sjs/output.exe -O0 -std=gnu99 
 
 Code:
  #include <stdlib.h>
@@ -4642,8 +4642,8 @@ Compiler stderr:
  
 Checking for function "posix_memalign" : YES
 Running compile:
-Working directory:  /tmp/tmpnw66n4tg
-Command line:  cc /tmp/tmpnw66n4tg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnw66n4tg/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpuneqtkyq
+Command line:  cc /tmp/tmpuneqtkyq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpuneqtkyq/output.exe -O0 -std=gnu99 
 
 Code:
  #include <spawn.h>
@@ -4664,8 +4664,8 @@ Compiler stderr:
  
 Checking for function "posix_spawn" : YES
 Running compile:
-Working directory:  /tmp/tmpw6_iw2t6
-Command line:  cc /tmp/tmpw6_iw2t6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpw6_iw2t6/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpzf6du5ev
+Command line:  cc /tmp/tmpzf6du5ev/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpzf6du5ev/output.obj -O0 -std=gnu99 
 
 Code:
  #define _GNU_SOURCE
@@ -4683,8 +4683,8 @@ Compiler stderr:
  
 Checking if "strerror_r() returns char *" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpbm1fpjxy
-Command line:  cc /tmp/tmpbm1fpjxy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbm1fpjxy/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvzuqh1cu
+Command line:  cc /tmp/tmpvzuqh1cu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvzuqh1cu/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4708,14 +4708,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpbm1fpjxy/testfile.c:10:14: warning: conflicting types for built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+ /tmp/tmpvzuqh1cu/testfile.c:10:14: warning: conflicting types for built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
          char snprintf ();
               ^~~~~~~~
 
 Checking for function "snprintf" : YES
 Running compile:
-Working directory:  /tmp/tmpielw90cw
-Command line:  cc /tmp/tmpielw90cw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpielw90cw/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpn5nnkt_p
+Command line:  cc /tmp/tmpn5nnkt_p/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpn5nnkt_p/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4739,14 +4739,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpielw90cw/testfile.c:10:14: warning: conflicting types for built-in function 'strcasecmp' [-Wbuiltin-declaration-mismatch]
+ /tmp/tmpn5nnkt_p/testfile.c:10:14: warning: conflicting types for built-in function 'strcasecmp' [-Wbuiltin-declaration-mismatch]
          char strcasecmp ();
               ^~~~~~~~~~
 
 Checking for function "strcasecmp" : YES
 Running compile:
-Working directory:  /tmp/tmpzdjzyqil
-Command line:  cc /tmp/tmpzdjzyqil/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpzdjzyqil/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpp4ounei1
+Command line:  cc /tmp/tmpp4ounei1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpp4ounei1/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4770,14 +4770,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpzdjzyqil/testfile.c:10:14: warning: conflicting types for built-in function 'strncasecmp' [-Wbuiltin-declaration-mismatch]
+ /tmp/tmpp4ounei1/testfile.c:10:14: warning: conflicting types for built-in function 'strncasecmp' [-Wbuiltin-declaration-mismatch]
          char strncasecmp ();
               ^~~~~~~~~~~
 
 Checking for function "strncasecmp" : YES
 Running compile:
-Working directory:  /tmp/tmp6t3w_g0q
-Command line:  cc /tmp/tmp6t3w_g0q/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp6t3w_g0q/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpq3ciyyi1
+Command line:  cc /tmp/tmpq3ciyyi1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpq3ciyyi1/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -4794,8 +4794,8 @@ Compiler stderr:
  
 Header <sys/sysmacros.h> has symbol "major" : YES
 Running compile:
-Working directory:  /tmp/tmp7pma32kh
-Command line:  cc /tmp/tmp7pma32kh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp7pma32kh/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmps_fecr_4
+Command line:  cc /tmp/tmps_fecr_4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmps_fecr_4/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -4812,8 +4812,8 @@ Compiler stderr:
  
 Header <dlfcn.h> has symbol "RTLD_LAZY" : YES
 Running compile:
-Working directory:  /tmp/tmppazwtwgu
-Command line:  cc /tmp/tmppazwtwgu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmppazwtwgu/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp0cwkqu0o
+Command line:  cc /tmp/tmp0cwkqu0o/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp0cwkqu0o/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -4830,8 +4830,8 @@ Compiler stderr:
  
 Header <dlfcn.h> has symbol "RTLD_NOW" : YES
 Running compile:
-Working directory:  /tmp/tmplqtg8jpf
-Command line:  cc /tmp/tmplqtg8jpf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmplqtg8jpf/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpgvwr3526
+Command line:  cc /tmp/tmpgvwr3526/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpgvwr3526/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -4848,8 +4848,8 @@ Compiler stderr:
  
 Header <dlfcn.h> has symbol "RTLD_GLOBAL" : YES
 Running compile:
-Working directory:  /tmp/tmpg_5wvz5n
-Command line:  cc /tmp/tmpg_5wvz5n/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpg_5wvz5n/output.obj -O0 -std=gnu99 -D_GNU_SOURCE 
+Working directory:  /tmp/tmpcu4tdvd1
+Command line:  cc /tmp/tmpcu4tdvd1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpcu4tdvd1/output.obj -O0 -std=gnu99 -D_GNU_SOURCE 
 
 Code:
  
@@ -4867,8 +4867,8 @@ Compiler stderr:
 Header <dlfcn.h> has symbol "RTLD_NEXT" : YES
 Message: Checking whether to use statfs or statvfs .. statfs
 Running compile:
-Working directory:  /tmp/tmp5smcpvzs
-Command line:  cc /tmp/tmp5smcpvzs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5smcpvzs/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpwgzzjaal
+Command line:  cc /tmp/tmpwgzzjaal/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpwgzzjaal/output.exe -O0 -std=gnu99 
 
 Code:
  #define _GNU_SOURCE
@@ -4890,8 +4890,8 @@ Compiler stderr:
  
 Checking for function "mkostemp" : YES
 Running compile:
-Working directory:  /tmp/tmpud_e3wvk
-Command line:  cc /tmp/tmpud_e3wvk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpud_e3wvk/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpdb31d80x
+Command line:  cc /tmp/tmpdb31d80x/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpdb31d80x/output.exe -O0 -std=gnu99 
 
 Code:
  #include <linux/futex.h>
@@ -4907,8 +4907,8 @@ Compiler stderr:
  
 Checking if "futex(2) system call" links: YES
 Running compile:
-Working directory:  /tmp/tmpn7491h91
-Command line:  cc /tmp/tmpn7491h91/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpn7491h91/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp6_ose9d5
+Command line:  cc /tmp/tmp6_ose9d5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6_ose9d5/output.exe -O0 -std=gnu99 
 
 Code:
  #include <sys/eventfd.h>
@@ -4923,8 +4923,8 @@ Compiler stderr:
  
 Checking if "eventfd(2) system call" links: YES
 Running compile:
-Working directory:  /tmp/tmpubw4q6pp
-Command line:  cc /tmp/tmpubw4q6pp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpubw4q6pp/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpv_udhbia
+Command line:  cc /tmp/tmpv_udhbia/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpv_udhbia/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4939,8 +4939,8 @@ Compiler stderr:
  
 Checking if "clock_gettime" links: YES
 Running compile:
-Working directory:  /tmp/tmpa0ypdbmf
-Command line:  cc /tmp/tmpa0ypdbmf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpa0ypdbmf/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpkvzpjm29
+Command line:  cc /tmp/tmpkvzpjm29/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpkvzpjm29/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -4958,7 +4958,7 @@ int main (int argc, char ** argv) {
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccm7PX1G.o: in function `main':
+ /usr/bin/ld: /tmp/ccdsKSFy.o: in function `main':
 testfile.c:(.text+0x35): undefined reference to `dlopen'
 /usr/bin/ld: testfile.c:(.text+0x53): undefined reference to `dlsym'
 /usr/bin/ld: testfile.c:(.text+0x6a): undefined reference to `dlsym'
@@ -4966,8 +4966,8 @@ collect2: error: ld returned 1 exit status
 
 Checking if "dlopen() and dlsym() in system libraries" links: NO
 Running compile:
-Working directory:  /tmp/tmp214198cv
-Command line:  cc /tmp/tmp214198cv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp214198cv/output.exe -O0 -std=gnu99 -Wl,--start-group -ldl -Wl,--end-group 
+Working directory:  /tmp/tmp5xmps5_7
+Command line:  cc /tmp/tmp5xmps5_7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5xmps5_7/output.exe -O0 -std=gnu99 -Wl,--start-group -ldl -Wl,--end-group 
 
 Code:
  
@@ -4988,8 +4988,8 @@ Compiler stderr:
  
 Checking if "dlopen() and dlsym() in libdl" links: YES
 Running compile:
-Working directory:  /tmp/tmpcq0baiku
-Command line:  cc /tmp/tmpcq0baiku/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcq0baiku/output.exe -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmphabpjgfs
+Command line:  cc /tmp/tmphabpjgfs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphabpjgfs/output.exe -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -4999,8 +4999,8 @@ Compiler stderr:
  
 Library dl found: YES
 Running compile:
-Working directory:  /tmp/tmp9bxzvabh
-Command line:  cc /tmp/tmp9bxzvabh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9bxzvabh/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpdl0ozxk7
+Command line:  cc /tmp/tmpdl0ozxk7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpdl0ozxk7/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -5131,8 +5131,8 @@ Compiler stderr:
  
 Checking if "number of arguments to statfs() (n=2)" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpjf_s9pqr
-Command line:  cc /tmp/tmpjf_s9pqr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjf_s9pqr/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpqngizyyp
+Command line:  cc /tmp/tmpqngizyyp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqngizyyp/output.obj -O0 -std=gnu99 
 
 Code:
  #include <fcntl.h>
@@ -5144,14 +5144,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpjf_s9pqr/testfile.c:3:40: warning: extra tokens at end of #include directive
+ /tmp/tmpqngizyyp/testfile.c:3:40: warning: extra tokens at end of #include directive
                    #include <sys/stat.h>],
                                         ^
 
 Checking if "open() option O_DIRECTORY" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpu3uek7p_
-Command line:  cc /tmp/tmpu3uek7p_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpu3uek7p_/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpmcpqd3gm
+Command line:  cc /tmp/tmpmcpqd3gm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmcpqd3gm/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -5194,31 +5194,31 @@ main(void)
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpu3uek7p_/testfile.c: In function 'doit':
-/tmp/tmpu3uek7p_/testfile.c:17:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ /tmp/tmpmcpqd3gm/testfile.c: In function 'doit':
+/tmp/tmpmcpqd3gm/testfile.c:17:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
      exit(1);
      ^~~~
-/tmp/tmpu3uek7p_/testfile.c:17:5: warning: incompatible implicit declaration of built-in function 'exit'
-/tmp/tmpu3uek7p_/testfile.c:17:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpu3uek7p_/testfile.c:4:1:
+/tmp/tmpmcpqd3gm/testfile.c:17:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:17:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:4:1:
 +#include <stdlib.h>
  
-/tmp/tmpu3uek7p_/testfile.c:17:5:
+/tmp/tmpmcpqd3gm/testfile.c:17:5:
      exit(1);
      ^~~~
-/tmp/tmpu3uek7p_/testfile.c:27:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:27:5: warning: incompatible implicit declaration of built-in function 'exit'
      exit(1);
      ^~~~
-/tmp/tmpu3uek7p_/testfile.c:27:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpu3uek7p_/testfile.c:29:3: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:27:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:29:3: warning: incompatible implicit declaration of built-in function 'exit'
    exit(0);
    ^~~~
-/tmp/tmpu3uek7p_/testfile.c:29:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpu3uek7p_/testfile.c: In function 'main':
-/tmp/tmpu3uek7p_/testfile.c:36:3: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:29:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpmcpqd3gm/testfile.c: In function 'main':
+/tmp/tmpmcpqd3gm/testfile.c:36:3: warning: incompatible implicit declaration of built-in function 'exit'
    exit(1);
    ^~~~
-/tmp/tmpu3uek7p_/testfile.c:36:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpmcpqd3gm/testfile.c:36:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
 
 Program stdout:
 
@@ -5228,8 +5228,8 @@ Program stderr:
 
 Checking if "C99 vsnprintf" runs: YES
 Running compile:
-Working directory:  /tmp/tmpl8rsyfew
-Command line:  cc /tmp/tmpl8rsyfew/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpl8rsyfew/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpcz5xbnjn
+Command line:  cc /tmp/tmpcz5xbnjn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcz5xbnjn/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -5270,35 +5270,35 @@ main(void)
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpl8rsyfew/testfile.c: In function 'doit':
-/tmp/tmpl8rsyfew/testfile.c:15:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+ /tmp/tmpcz5xbnjn/testfile.c: In function 'doit':
+/tmp/tmpcz5xbnjn/testfile.c:15:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
      exit(1);
      ^~~~
-/tmp/tmpl8rsyfew/testfile.c:15:5: warning: incompatible implicit declaration of built-in function 'exit'
-/tmp/tmpl8rsyfew/testfile.c:15:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpl8rsyfew/testfile.c:4:1:
+/tmp/tmpcz5xbnjn/testfile.c:15:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:15:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:4:1:
 +#include <stdlib.h>
  
-/tmp/tmpl8rsyfew/testfile.c:15:5:
+/tmp/tmpcz5xbnjn/testfile.c:15:5:
      exit(1);
      ^~~~
-/tmp/tmpl8rsyfew/testfile.c:20:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:20:5: warning: incompatible implicit declaration of built-in function 'exit'
      exit(1);
      ^~~~
-/tmp/tmpl8rsyfew/testfile.c:20:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpl8rsyfew/testfile.c:25:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:20:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:25:5: warning: incompatible implicit declaration of built-in function 'exit'
      exit(1);
      ^~~~
-/tmp/tmpl8rsyfew/testfile.c:25:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpl8rsyfew/testfile.c:27:3: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:25:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:27:3: warning: incompatible implicit declaration of built-in function 'exit'
    exit(0);
    ^~~~
-/tmp/tmpl8rsyfew/testfile.c:27:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpl8rsyfew/testfile.c: In function 'main':
-/tmp/tmpl8rsyfew/testfile.c:34:3: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:27:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpcz5xbnjn/testfile.c: In function 'main':
+/tmp/tmpcz5xbnjn/testfile.c:34:3: warning: incompatible implicit declaration of built-in function 'exit'
    exit(1);
    ^~~~
-/tmp/tmpl8rsyfew/testfile.c:34:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpcz5xbnjn/testfile.c:34:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
 
 Program stdout:
 
@@ -5308,8 +5308,8 @@ Program stderr:
 
 Checking if "C99 snprintf" runs: YES
 Running compile:
-Working directory:  /tmp/tmpqntowm5r
-Command line:  cc /tmp/tmpqntowm5r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpqntowm5r/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpuul_qm_g
+Command line:  cc /tmp/tmpuul_qm_g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpuul_qm_g/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -5328,30 +5328,30 @@ main (void)
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpqntowm5r/testfile.c: In function 'main':
-/tmp/tmpqntowm5r/testfile.c:9:20: warning: unknown escape sequence: '\$'
+ /tmp/tmpuul_qm_g/testfile.c: In function 'main':
+/tmp/tmpuul_qm_g/testfile.c:9:20: warning: unknown escape sequence: '\$'
    sprintf (buffer, "%2\$d %3\$d %1\$d", 1, 2, 3);
                     ^~~~~~~~~~~~~~~~~~~
-/tmp/tmpqntowm5r/testfile.c:9:20: warning: unknown escape sequence: '\$'
-/tmp/tmpqntowm5r/testfile.c:9:20: warning: unknown escape sequence: '\$'
-/tmp/tmpqntowm5r/testfile.c:10:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+/tmp/tmpuul_qm_g/testfile.c:9:20: warning: unknown escape sequence: '\$'
+/tmp/tmpuul_qm_g/testfile.c:9:20: warning: unknown escape sequence: '\$'
+/tmp/tmpuul_qm_g/testfile.c:10:7: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
    if (strcmp ("2 3 1", buffer) == 0)
        ^~~~~~
-/tmp/tmpqntowm5r/testfile.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+/tmp/tmpuul_qm_g/testfile.c:11:5: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
      exit (0);
      ^~~~
-/tmp/tmpqntowm5r/testfile.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
-/tmp/tmpqntowm5r/testfile.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
-/tmp/tmpqntowm5r/testfile.c:3:1:
+/tmp/tmpuul_qm_g/testfile.c:11:5: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpuul_qm_g/testfile.c:11:5: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpuul_qm_g/testfile.c:3:1:
 +#include <stdlib.h>
  
-/tmp/tmpqntowm5r/testfile.c:11:5:
+/tmp/tmpuul_qm_g/testfile.c:11:5:
      exit (0);
      ^~~~
-/tmp/tmpqntowm5r/testfile.c:12:3: warning: incompatible implicit declaration of built-in function 'exit'
+/tmp/tmpuul_qm_g/testfile.c:12:3: warning: incompatible implicit declaration of built-in function 'exit'
    exit (1);
    ^~~~
-/tmp/tmpqntowm5r/testfile.c:12:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
+/tmp/tmpuul_qm_g/testfile.c:12:3: note: include '<stdlib.h>' or provide a declaration of 'exit'
 
 Program stdout:
 
@@ -5361,8 +5361,8 @@ Program stderr:
 
 Checking if "Unix98 printf positional parameters" runs: YES
 Running compile:
-Working directory:  /tmp/tmpw70_zh1t
-Command line:  cc /tmp/tmpw70_zh1t/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpw70_zh1t/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpf8kzrqgh
+Command line:  cc /tmp/tmpf8kzrqgh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpf8kzrqgh/output.exe -O0 -std=gnu99 
 
 Code:
  #include <langinfo.h>
@@ -5376,8 +5376,8 @@ Compiler stderr:
  
 Checking if "nl_langinfo and CODESET" links: YES
 Running compile:
-Working directory:  /tmp/tmp_g0vh1lp
-Command line:  cc /tmp/tmp_g0vh1lp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp_g0vh1lp/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpb_3o13ej
+Command line:  cc /tmp/tmpb_3o13ej/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpb_3o13ej/output.exe -O0 -std=gnu99 
 
 Code:
  #include <langinfo.h>
@@ -5400,8 +5400,8 @@ Compiler stderr:
  
 Checking if "nl_langinfo (PM_STR)" links: YES
 Running compile:
-Working directory:  /tmp/tmpjzi_4qwa
-Command line:  cc /tmp/tmpjzi_4qwa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjzi_4qwa/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmphnzzgut1
+Command line:  cc /tmp/tmphnzzgut1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphnzzgut1/output.exe -O0 -std=gnu99 
 
 Code:
  #include <langinfo.h>
@@ -5425,8 +5425,8 @@ Compiler stderr:
  
 Checking if "nl_langinfo (_NL_CTYPE_OUTDIGITn_MB)" links: YES
 Running compile:
-Working directory:  /tmp/tmp85eo97cq
-Command line:  cc /tmp/tmp85eo97cq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp85eo97cq/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpyh1jbmha
+Command line:  cc /tmp/tmpyh1jbmha/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyh1jbmha/output.exe -O0 -std=gnu99 
 
 Code:
  #ifndef _GNU_SOURCE
@@ -5455,8 +5455,8 @@ Compiler stderr:
  
 Checking if "nl_langinfo (ALTMON_n)" links: YES
 Running compile:
-Working directory:  /tmp/tmpg_4fd4ea
-Command line:  cc /tmp/tmpg_4fd4ea/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpg_4fd4ea/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp3b7an9j5
+Command line:  cc /tmp/tmp3b7an9j5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3b7an9j5/output.exe -O0 -std=gnu99 
 
 Code:
  #ifndef _GNU_SOURCE
@@ -5485,8 +5485,8 @@ Compiler stderr:
  
 Checking if "nl_langinfo (_NL_ABALTMON_n)" links: YES
 Running compile:
-Working directory:  /tmp/tmpk_pdxc88
-Command line:  cc /tmp/tmpk_pdxc88/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpk_pdxc88/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpbspf_yqs
+Command line:  cc /tmp/tmpbspf_yqs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpbspf_yqs/output.obj -O0 -std=gnu99 
 
 Code:
  signed char x;
@@ -5496,8 +5496,8 @@ Compiler stderr:
  
 Checking if "signed" compiles: YES
 Running compile:
-Working directory:  /tmp/tmp7kxke6e_
-Command line:  cc /tmp/tmp7kxke6e_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp7kxke6e_/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpmbporkiq
+Command line:  cc /tmp/tmpmbporkiq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmbporkiq/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -5511,15 +5511,15 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp7kxke6e_/testfile.c: In function 'main':
-/tmp/tmp7kxke6e_/testfile.c:6:17: warning: useless type name in empty declaration
+ /tmp/tmpmbporkiq/testfile.c: In function 'main':
+/tmp/tmpmbporkiq/testfile.c:6:17: warning: useless type name in empty declaration
                  ptrdiff_t;
                  ^~~~~~~~~
 
 Header <stddef.h> has symbol "ptrdiff_t" : YES
 Running compile:
-Working directory:  /tmp/tmpyhklfd67
-Command line:  cc /tmp/tmpyhklfd67/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyhklfd67/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpzq206szd
+Command line:  cc /tmp/tmpzq206szd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpzq206szd/output.exe -O0 -std=gnu99 
 
 Code:
  #include <signal.h>
@@ -5534,8 +5534,8 @@ Compiler stderr:
  
 Checking if "sig_atomic_t" links: YES
 Running compile:
-Working directory:  /tmp/tmp5se83dcc
-Command line:  cc /tmp/tmp5se83dcc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp5se83dcc/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp9apor0xa
+Command line:  cc /tmp/tmp9apor0xa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9apor0xa/output.obj -O0 -std=gnu99 
 
 Code:
  long long ll = 1LL;
@@ -5550,8 +5550,8 @@ Compiler stderr:
  
 Checking if "long long" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpszfivage
-Command line:  cc /tmp/tmpszfivage/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpszfivage/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpjw__x0nw
+Command line:  cc /tmp/tmpjw__x0nw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjw__x0nw/output.obj -O0 -std=gnu99 
 
 Code:
  /* The Stardent Vistra knows sizeof(long double), but does not support it.  */
@@ -5564,8 +5564,8 @@ Compiler stderr:
  
 Checking if "long double" compiles: YES
 Running compile:
-Working directory:  /tmp/tmp8czidrlp
-Command line:  cc /tmp/tmp8czidrlp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp8czidrlp/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpr_gtoa20
+Command line:  cc /tmp/tmpr_gtoa20/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpr_gtoa20/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -5579,15 +5579,15 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp8czidrlp/testfile.c: In function 'main':
-/tmp/tmp8czidrlp/testfile.c:6:17: warning: useless type name in empty declaration
+ /tmp/tmpr_gtoa20/testfile.c: In function 'main':
+/tmp/tmpr_gtoa20/testfile.c:6:17: warning: useless type name in empty declaration
                  wchar_t;
                  ^~~~~~~
 
 Header <stddef.h> has symbol "wchar_t" : YES
 Running compile:
-Working directory:  /tmp/tmpa8rx79c4
-Command line:  cc /tmp/tmpa8rx79c4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpa8rx79c4/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp8bu9gclo
+Command line:  cc /tmp/tmp8bu9gclo/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp8bu9gclo/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -5601,15 +5601,15 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpa8rx79c4/testfile.c: In function 'main':
-/tmp/tmpa8rx79c4/testfile.c:6:17: warning: useless type name in empty declaration
+ /tmp/tmp8bu9gclo/testfile.c: In function 'main':
+/tmp/tmp8bu9gclo/testfile.c:6:17: warning: useless type name in empty declaration
                  wint_t;
                  ^~~~~~
 
 Header <wchar.h> has symbol "wint_t" : YES
 Running compile:
-Working directory:  /tmp/tmpkpcz7hji
-Command line:  cc /tmp/tmpkpcz7hji/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpkpcz7hji/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpf89nkap1
+Command line:  cc /tmp/tmpf89nkap1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpf89nkap1/output.obj -O0 -std=gnu99 
 
 Code:
  #include <sys/types.h>
@@ -5623,8 +5623,8 @@ Compiler stderr:
  
 Checking if "uintmax_t in inttypes.h" compiles: YES
 Running compile:
-Working directory:  /tmp/tmp9_6u50bs
-Command line:  cc /tmp/tmp9_6u50bs/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9_6u50bs/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp8ufb2ur7
+Command line:  cc /tmp/tmp8ufb2ur7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp8ufb2ur7/output.obj -O0 -std=gnu99 
 
 Code:
  #include <sys/types.h>
@@ -5638,8 +5638,8 @@ Compiler stderr:
  
 Checking if "uintmax_t in stdint.h" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpodjz__8y
-Command line:  cc /tmp/tmpodjz__8y/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpodjz__8y/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpfn9f9x2p
+Command line:  cc /tmp/tmpfn9f9x2p/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfn9f9x2p/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5661,8 +5661,8 @@ Program stderr:
 
 Checking for size of "char" : 1
 Running compile:
-Working directory:  /tmp/tmp5iabve4w
-Command line:  cc /tmp/tmp5iabve4w/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5iabve4w/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpyuczzg23
+Command line:  cc /tmp/tmpyuczzg23/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyuczzg23/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5684,8 +5684,8 @@ Program stderr:
 
 Checking for size of "short" : 2
 Running compile:
-Working directory:  /tmp/tmpa0pwexhi
-Command line:  cc /tmp/tmpa0pwexhi/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpa0pwexhi/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpa3xerq3v
+Command line:  cc /tmp/tmpa3xerq3v/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpa3xerq3v/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5707,8 +5707,8 @@ Program stderr:
 
 Checking for size of "int" : 4
 Running compile:
-Working directory:  /tmp/tmpcdarhnao
-Command line:  cc /tmp/tmpcdarhnao/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcdarhnao/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvx2hs1bt
+Command line:  cc /tmp/tmpvx2hs1bt/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvx2hs1bt/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5730,8 +5730,8 @@ Program stderr:
 
 Checking for size of "void*" : 8
 Running compile:
-Working directory:  /tmp/tmp4rk5enod
-Command line:  cc /tmp/tmp4rk5enod/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp4rk5enod/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjkiv7est
+Command line:  cc /tmp/tmpjkiv7est/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjkiv7est/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5753,8 +5753,8 @@ Program stderr:
 
 Checking for size of "long" : 8
 Running compile:
-Working directory:  /tmp/tmp3s0_kqwf
-Command line:  cc /tmp/tmp3s0_kqwf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3s0_kqwf/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmphw5ynjha
+Command line:  cc /tmp/tmphw5ynjha/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmphw5ynjha/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5776,8 +5776,8 @@ Program stderr:
 
 Checking for size of "long long" : 8
 Running compile:
-Working directory:  /tmp/tmp0wsvwbsl
-Command line:  cc /tmp/tmp0wsvwbsl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0wsvwbsl/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpfat39844
+Command line:  cc /tmp/tmpfat39844/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfat39844/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5799,8 +5799,8 @@ Program stderr:
 
 Checking for size of "size_t" : 8
 Running compile:
-Working directory:  /tmp/tmp6coho7mf
-Command line:  cc /tmp/tmp6coho7mf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6coho7mf/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvx97y309
+Command line:  cc /tmp/tmpvx97y309/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvx97y309/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -5822,8 +5822,8 @@ Program stderr:
 
 Checking for size of "ssize_t" : 8
 Running compile:
-Working directory:  /tmp/tmpqdmggj19
-Command line:  cc /tmp/tmpqdmggj19/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqdmggj19/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp_6ixr4xm
+Command line:  cc /tmp/tmp_6ixr4xm/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_6ixr4xm/output.obj -O0 -std=gnu99 
 
 Code:
  #if defined(_AIX) && !defined(__GNUC__)
@@ -5843,8 +5843,8 @@ Compiler stderr:
  
 Checking if "int64_t is long" compiles: YES
 Running compile:
-Working directory:  /tmp/tmp2p61dkq4
-Command line:  cc /tmp/tmp2p61dkq4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp2p61dkq4/output.exe -O0 
+Working directory:  /tmp/tmpatpxwu7l
+Command line:  cc /tmp/tmpatpxwu7l/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpatpxwu7l/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -5870,8 +5870,8 @@ Program stderr:
 
 Checking for alignment of "char" : 1
 Running compile:
-Working directory:  /tmp/tmppdpfqrwu
-Command line:  cc /tmp/tmppdpfqrwu/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmppdpfqrwu/output.exe -O0 
+Working directory:  /tmp/tmp438ixg2n
+Command line:  cc /tmp/tmp438ixg2n/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp438ixg2n/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -5897,8 +5897,8 @@ Program stderr:
 
 Checking for alignment of "short" : 2
 Running compile:
-Working directory:  /tmp/tmpus7sslby
-Command line:  cc /tmp/tmpus7sslby/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpus7sslby/output.exe -O0 
+Working directory:  /tmp/tmp6ymh7u8_
+Command line:  cc /tmp/tmp6ymh7u8_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6ymh7u8_/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -5924,8 +5924,8 @@ Program stderr:
 
 Checking for alignment of "int" : 4
 Running compile:
-Working directory:  /tmp/tmpz211205v
-Command line:  cc /tmp/tmpz211205v/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpz211205v/output.exe -O0 
+Working directory:  /tmp/tmprtp52mmp
+Command line:  cc /tmp/tmprtp52mmp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmprtp52mmp/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -5951,8 +5951,8 @@ Program stderr:
 
 Checking for alignment of "void*" : 8
 Running compile:
-Working directory:  /tmp/tmpjupw6l7_
-Command line:  cc /tmp/tmpjupw6l7_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjupw6l7_/output.exe -O0 
+Working directory:  /tmp/tmpjvw528yh
+Command line:  cc /tmp/tmpjvw528yh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjvw528yh/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -5978,8 +5978,8 @@ Program stderr:
 
 Checking for alignment of "long" : 8
 Running compile:
-Working directory:  /tmp/tmpxvhfyxfk
-Command line:  cc /tmp/tmpxvhfyxfk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxvhfyxfk/output.exe -O0 
+Working directory:  /tmp/tmpb5l862v7
+Command line:  cc /tmp/tmpb5l862v7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpb5l862v7/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -6005,8 +6005,8 @@ Program stderr:
 
 Checking for alignment of "long long" : 8
 Running compile:
-Working directory:  /tmp/tmpeu8o80cy
-Command line:  cc /tmp/tmpeu8o80cy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpeu8o80cy/output.exe -O0 
+Working directory:  /tmp/tmp4u1td8p5
+Command line:  cc /tmp/tmp4u1td8p5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp4u1td8p5/output.exe -O0 
 
 Code:
  #include <stdio.h>
@@ -6032,8 +6032,8 @@ Program stderr:
 
 Checking for alignment of "size_t" : 8
 Running compile:
-Working directory:  /tmp/tmp8u__uj4f
-Command line:  cc /tmp/tmp8u__uj4f/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp8u__uj4f/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpl9fvxddh
+Command line:  cc /tmp/tmpl9fvxddh/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpl9fvxddh/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6055,8 +6055,8 @@ Program stderr:
 
 Checking for size of "wchar_t" : 4
 Running compile:
-Working directory:  /tmp/tmp5qfc939g
-Command line:  cc /tmp/tmp5qfc939g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp5qfc939g/output.obj -O0 -std=gnu99 -Werror 
+Working directory:  /tmp/tmpu6pjh87g
+Command line:  cc /tmp/tmpu6pjh87g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpu6pjh87g/output.obj -O0 -std=gnu99 -Werror 
 
 Code:
  #include <stddef.h>
@@ -6072,8 +6072,8 @@ Compiler stderr:
  
 Checking if "GCC size_t typedef is long" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpstyt2th_
-Command line:  cc /tmp/tmpstyt2th_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpstyt2th_/output.obj -O0 -std=gnu99 -Werror 
+Working directory:  /tmp/tmpq6vz35s_
+Command line:  cc /tmp/tmpq6vz35s_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpq6vz35s_/output.obj -O0 -std=gnu99 -Werror 
 
 Code:
  #include <stddef.h>
@@ -6086,19 +6086,19 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpstyt2th_/testfile.c: In function 'main':
-/tmp/tmpstyt2th_/testfile.c:5:14: error: passing argument 1 of 'f' from incompatible pointer type [-Werror=incompatible-pointer-types]
+ /tmp/tmpq6vz35s_/testfile.c: In function 'main':
+/tmp/tmpq6vz35s_/testfile.c:5:14: error: passing argument 1 of 'f' from incompatible pointer type [-Werror=incompatible-pointer-types]
            f (&i);
               ^~
-/tmp/tmpstyt2th_/testfile.c:2:27: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'long long unsigned int *'
+/tmp/tmpq6vz35s_/testfile.c:2:27: note: expected 'size_t *' {aka 'long unsigned int *'} but argument is of type 'long long unsigned int *'
          size_t f (size_t *i) { return *i + 1; }
                    ~~~~~~~~^
 cc1: all warnings being treated as errors
 
 Checking if "GCC size_t typedef is long long" compiles: NO
 Running compile:
-Working directory:  /tmp/tmpqfe_r5qv
-Command line:  cc /tmp/tmpqfe_r5qv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqfe_r5qv/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpvagef0a1
+Command line:  cc /tmp/tmpvagef0a1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpvagef0a1/output.obj -O0 -std=gnu99 
 
 Code:
  #include <stdarg.h>
@@ -6124,8 +6124,8 @@ Compiler stderr:
  
 Checking if "__va_copy check" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpjimkxnnz
-Command line:  cc /tmp/tmpjimkxnnz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpjimkxnnz/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpqu53mx9g
+Command line:  cc /tmp/tmpqu53mx9g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpqu53mx9g/output.obj -O0 -std=gnu99 
 
 Code:
  #include <stdarg.h>
@@ -6151,8 +6151,8 @@ Compiler stderr:
  
 Checking if "va_copy check" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpxerq2gr8
-Command line:  cc /tmp/tmpxerq2gr8/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxerq2gr8/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpntmi9qu2
+Command line:  cc /tmp/tmpntmi9qu2/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpntmi9qu2/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -6173,17 +6173,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpxerq2gr8/testfile.c: In function 'f':
-/tmp/tmpxerq2gr8/testfile.c:7:11: error: assignment to expression with array type
+ /tmp/tmpntmi9qu2/testfile.c: In function 'f':
+/tmp/tmpntmi9qu2/testfile.c:7:11: error: assignment to expression with array type
      args2 = args1;
            ^
 
-Could not compile test file /tmp/tmpxerq2gr8/testfile.c: 1
+Could not compile test file /tmp/tmpntmi9qu2/testfile.c: 1
 
 Checking if "va_lists can be copied as values" runs: DID NOT COMPILE
 Running compile:
-Working directory:  /tmp/tmpuegjh2qa
-Command line:  cc /tmp/tmpuegjh2qa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpuegjh2qa/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpttq7ruz7
+Command line:  cc /tmp/tmpttq7ruz7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpttq7ruz7/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6198,8 +6198,8 @@ Compiler stderr:
  
 Checking if "ISO C99 varargs macros in C" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpmhlxz_b_
-Command line:  c++ /tmp/tmpmhlxz_b_/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpmhlxz_b_/output.obj -O0 -fpermissive 
+Working directory:  /tmp/tmpr_mkl478
+Command line:  c++ /tmp/tmpr_mkl478/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpr_mkl478/output.obj -O0 -fpermissive 
 
 Code:
  
@@ -6214,8 +6214,8 @@ Compiler stderr:
  
 Checking if "ISO C99 varargs macros in C++" compiles: YES
 Running compile:
-Working directory:  /tmp/tmpcz2r0kol
-Command line:  cc /tmp/tmpcz2r0kol/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpcz2r0kol/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpa8wyd6zp
+Command line:  cc /tmp/tmpa8wyd6zp/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpa8wyd6zp/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6230,7 +6230,7 @@ Compiler stderr:
  
 Checking if "GNUC varargs macros" compiles: YES
 Using cached compile:
-Cached command line:  cc /tmp/tmpxj3rkjgx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Cached command line:  cc /tmp/tmpowc5ga3i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -6247,8 +6247,8 @@ Cached compiler stderr:
  
 Has header "alloca.h" : YES
 Running compile:
-Working directory:  /tmp/tmpzy17whva
-Command line:  cc /tmp/tmpzy17whva/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpi5lj9pa1
+Command line:  cc /tmp/tmpi5lj9pa1/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -6265,7 +6265,7 @@ Compiler stderr:
  
 Has header "sys/poll.h" : YES
 Using cached compile:
-Cached command line:  cc /tmp/tmp_g0tudsy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Cached command line:  cc /tmp/tmp_eo3hgei/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -6282,8 +6282,8 @@ Cached compiler stderr:
  
 Has header "sys/types.h" : YES
 Running compile:
-Working directory:  /tmp/tmp83s6fxa0
-Command line:  cc /tmp/tmp83s6fxa0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmprl2bu2e0
+Command line:  cc /tmp/tmprl2bu2e0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -6297,14 +6297,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp83s6fxa0/testfile.c:4:12: error: #error "Header 'winsock2.h' could not be found"
+ /tmp/tmprl2bu2e0/testfile.c:4:12: error: #error "Header 'winsock2.h' could not be found"
            #error "Header 'winsock2.h' could not be found"
             ^~~~~
 
 Has header "winsock2.h" : NO
 Running compile:
-Working directory:  /tmp/tmp446qkyol
-Command line:  cc /tmp/tmp446qkyol/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp446qkyol/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp9k6zn3za
+Command line:  cc /tmp/tmp9k6zn3za/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp9k6zn3za/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6328,8 +6328,8 @@ Program stderr:
 
 Computing int of "POLLIN" : 1
 Running compile:
-Working directory:  /tmp/tmp41if7p_p
-Command line:  cc /tmp/tmp41if7p_p/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp41if7p_p/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpbkceftdb
+Command line:  cc /tmp/tmpbkceftdb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbkceftdb/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6353,8 +6353,8 @@ Program stderr:
 
 Computing int of "POLLOUT" : 4
 Running compile:
-Working directory:  /tmp/tmplwu46wb3
-Command line:  cc /tmp/tmplwu46wb3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmplwu46wb3/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp0av0r8p_
+Command line:  cc /tmp/tmp0av0r8p_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0av0r8p_/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6378,8 +6378,8 @@ Program stderr:
 
 Computing int of "POLLPRI" : 2
 Running compile:
-Working directory:  /tmp/tmp0xabnc03
-Command line:  cc /tmp/tmp0xabnc03/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp0xabnc03/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjrk4pv78
+Command line:  cc /tmp/tmpjrk4pv78/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjrk4pv78/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6403,8 +6403,8 @@ Program stderr:
 
 Computing int of "POLLERR" : 8
 Running compile:
-Working directory:  /tmp/tmpshspdmyy
-Command line:  cc /tmp/tmpshspdmyy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpshspdmyy/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpfa18vgq_
+Command line:  cc /tmp/tmpfa18vgq_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfa18vgq_/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6428,8 +6428,8 @@ Program stderr:
 
 Computing int of "POLLHUP" : 16
 Running compile:
-Working directory:  /tmp/tmpv4u9hadk
-Command line:  cc /tmp/tmpv4u9hadk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpv4u9hadk/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmplts4fvou
+Command line:  cc /tmp/tmplts4fvou/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmplts4fvou/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6453,8 +6453,8 @@ Program stderr:
 
 Computing int of "POLLNVAL" : 32
 Running compile:
-Working directory:  /tmp/tmpdqh4cqev
-Command line:  cc /tmp/tmpdqh4cqev/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpdqh4cqev/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp4jivt1au
+Command line:  cc /tmp/tmp4jivt1au/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp4jivt1au/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6478,8 +6478,8 @@ Program stderr:
 
 Computing int of "AF_UNIX" : 1
 Running compile:
-Working directory:  /tmp/tmp3c7li7ni
-Command line:  cc /tmp/tmp3c7li7ni/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3c7li7ni/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpw4j6rj53
+Command line:  cc /tmp/tmpw4j6rj53/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpw4j6rj53/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6503,8 +6503,8 @@ Program stderr:
 
 Computing int of "AF_INET" : 2
 Running compile:
-Working directory:  /tmp/tmp4mrmotof
-Command line:  cc /tmp/tmp4mrmotof/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp4mrmotof/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpctsob5gc
+Command line:  cc /tmp/tmpctsob5gc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpctsob5gc/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6528,8 +6528,8 @@ Program stderr:
 
 Computing int of "AF_INET6" : 10
 Running compile:
-Working directory:  /tmp/tmpxhqiik9m
-Command line:  cc /tmp/tmpxhqiik9m/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxhqiik9m/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpb0rkwkfz
+Command line:  cc /tmp/tmpb0rkwkfz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpb0rkwkfz/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6553,8 +6553,8 @@ Program stderr:
 
 Computing int of "MSG_OOB" : 1
 Running compile:
-Working directory:  /tmp/tmpco5lgn1i
-Command line:  cc /tmp/tmpco5lgn1i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpco5lgn1i/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpj1m8b6iq
+Command line:  cc /tmp/tmpj1m8b6iq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpj1m8b6iq/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6578,8 +6578,8 @@ Program stderr:
 
 Computing int of "MSG_PEEK" : 2
 Running compile:
-Working directory:  /tmp/tmpre3qvbt6
-Command line:  cc /tmp/tmpre3qvbt6/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpre3qvbt6/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpbnoelrjc
+Command line:  cc /tmp/tmpbnoelrjc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbnoelrjc/output.exe -O0 -std=gnu99 
 
 Code:
  #include<stdio.h>
@@ -6603,8 +6603,8 @@ Program stderr:
 
 Computing int of "MSG_DONTROUTE" : 4
 Running compile:
-Working directory:  /tmp/tmpv9sz3gmf
-Command line:  cc /tmp/tmpv9sz3gmf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpv9sz3gmf/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpxqwhv3yy
+Command line:  cc /tmp/tmpxqwhv3yy/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxqwhv3yy/output.exe -O0 -std=gnu99 
 
 Code:
  int main() {
@@ -6619,8 +6619,8 @@ Compiler stderr:
  
 Checking if "atomic ops" links: YES
 Running compile:
-Working directory:  /tmp/tmpnbepg47q
-Command line:  cc /tmp/tmpnbepg47q/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpnbepg47q/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpehpouksc
+Command line:  cc /tmp/tmpehpouksc/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpehpouksc/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6635,8 +6635,8 @@ Compiler stderr:
 Checking if "atomic ops define" compiles: YES
 Dependency threads found: YES 
 Running compile:
-Working directory:  /tmp/tmpcjeey66y
-Command line:  cc /tmp/tmpcjeey66y/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpcjeey66y/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp_39xr94r
+Command line:  cc /tmp/tmp_39xr94r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_39xr94r/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6653,8 +6653,8 @@ Compiler stderr:
  
 Header <pthread.h> has symbol "pthread_attr_setstacksize" : YES
 Running compile:
-Working directory:  /tmp/tmpn6rdvgdg
-Command line:  cc /tmp/tmpn6rdvgdg/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpn6rdvgdg/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp_fwl9798
+Command line:  cc /tmp/tmp_fwl9798/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp_fwl9798/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6671,8 +6671,8 @@ Compiler stderr:
  
 Header <pthread.h> has symbol "pthread_attr_setinheritsched" : YES
 Running compile:
-Working directory:  /tmp/tmpz9vfcz6g
-Command line:  cc /tmp/tmpz9vfcz6g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpz9vfcz6g/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpse9c6nhr
+Command line:  cc /tmp/tmpse9c6nhr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpse9c6nhr/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6689,8 +6689,8 @@ Compiler stderr:
  
 Header <pthread.h> has symbol "pthread_condattr_setclock" : YES
 Running compile:
-Working directory:  /tmp/tmpz3relcxi
-Command line:  cc /tmp/tmpz3relcxi/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpz3relcxi/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpbpmg5jgx
+Command line:  cc /tmp/tmpbpmg5jgx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpbpmg5jgx/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6704,17 +6704,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpz3relcxi/testfile.c: In function 'main':
-/tmp/tmpz3relcxi/testfile.c:6:17: error: 'pthread_cond_timedwait_relative_np' undeclared (first use in this function); did you mean 'pthread_cond_timedwait'?
+ /tmp/tmpbpmg5jgx/testfile.c: In function 'main':
+/tmp/tmpbpmg5jgx/testfile.c:6:17: error: 'pthread_cond_timedwait_relative_np' undeclared (first use in this function); did you mean 'pthread_cond_timedwait'?
                  pthread_cond_timedwait_relative_np;
                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
                  pthread_cond_timedwait
-/tmp/tmpz3relcxi/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmpbpmg5jgx/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Header <pthread.h> has symbol "pthread_cond_timedwait_relative_np" : NO
 Running compile:
-Working directory:  /tmp/tmp4a9sqrgd
-Command line:  cc /tmp/tmp4a9sqrgd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp4a9sqrgd/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp7kkf_jra
+Command line:  cc /tmp/tmp7kkf_jra/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp7kkf_jra/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6735,8 +6735,8 @@ Compiler stderr:
  
 Header <pthread.h> has symbol "pthread_getname_np" : YES
 Running compile:
-Working directory:  /tmp/tmpsn5xtp82
-Command line:  cc /tmp/tmpsn5xtp82/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpsn5xtp82/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpj5yusv1l
+Command line:  cc /tmp/tmpj5yusv1l/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpj5yusv1l/output.obj -O0 -std=gnu99 
 
 Code:
  
@@ -6753,8 +6753,8 @@ Compiler stderr:
  
 Header <sys/syscall.h> has symbol "SYS_sched_getattr" : YES
 Running compile:
-Working directory:  /tmp/tmplsihgf60
-Command line:  cc /tmp/tmplsihgf60/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmplsihgf60/output.exe -pthread -O0 -std=gnu99 
+Working directory:  /tmp/tmp_vxda57w
+Command line:  cc /tmp/tmp_vxda57w/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp_vxda57w/output.exe -pthread -O0 -std=gnu99 
 
 Code:
  
@@ -6769,26 +6769,26 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmplsihgf60/testfile.c: In function 'main':
-/tmp/tmplsihgf60/testfile.c:7:36: warning: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
+ /tmp/tmp_vxda57w/testfile.c: In function 'main':
+/tmp/tmp_vxda57w/testfile.c:7:36: warning: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Wint-conversion]
                  pthread_setname_np("example");
                                     ^~~~~~~~~
-In file included from /tmp/tmplsihgf60/testfile.c:5:
+In file included from /tmp/tmp_vxda57w/testfile.c:5:
 /usr/include/pthread.h:452:42: note: expected 'pthread_t' {aka 'long unsigned int'} but argument is of type 'char *'
  extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
                                 ~~~~~~~~~~^~~~~~~~~~~~~~~
-/tmp/tmplsihgf60/testfile.c:7:17: error: too few arguments to function 'pthread_setname_np'
+/tmp/tmp_vxda57w/testfile.c:7:17: error: too few arguments to function 'pthread_setname_np'
                  pthread_setname_np("example");
                  ^~~~~~~~~~~~~~~~~~
-In file included from /tmp/tmplsihgf60/testfile.c:5:
+In file included from /tmp/tmp_vxda57w/testfile.c:5:
 /usr/include/pthread.h:452:12: note: declared here
  extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
             ^~~~~~~~~~~~~~~~~~
 
 Checking if "pthread_setname_np(const char*)" with dependency threads links: NO
 Running compile:
-Working directory:  /tmp/tmpmksbv_bd
-Command line:  cc /tmp/tmpmksbv_bd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmksbv_bd/output.exe -pthread -O0 -std=gnu99 
+Working directory:  /tmp/tmpc9hbe2l3
+Command line:  cc /tmp/tmpc9hbe2l3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpc9hbe2l3/output.exe -pthread -O0 -std=gnu99 
 
 Code:
  
@@ -6806,8 +6806,8 @@ Compiler stderr:
  
 Checking if "pthread_setname_np(pthread_t, const char*)" with dependency threads links: YES
 Running compile:
-Working directory:  /tmp/tmp31f_bdr9
-Command line:  cc /tmp/tmp31f_bdr9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp31f_bdr9/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpktw7zfxe
+Command line:  cc /tmp/tmpktw7zfxe/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpktw7zfxe/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -6837,8 +6837,8 @@ Program stderr:
 
 Checking if "stack grows check" runs: NO (1)
 Running compile:
-Working directory:  /tmp/tmp944v8bzr
-Command line:  cc /tmp/tmp944v8bzr/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp944v8bzr/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpnn24ercf
+Command line:  cc /tmp/tmpnn24ercf/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnn24ercf/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -6875,8 +6875,8 @@ Called `/usr/bin/pkg-config libpcre --libs` -> 0
 Called `/usr/bin/pkg-config libpcre --libs` -> 0
 -lpcre
 Running compile:
-Working directory:  /tmp/tmpletcf5vo
-Command line:  c++ /tmp/tmpletcf5vo/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpletcf5vo/output.exe -O0 -fpermissive 
+Working directory:  /tmp/tmpyp8fjea4
+Command line:  c++ /tmp/tmpyp8fjea4/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyp8fjea4/output.exe -O0 -fpermissive 
 
 Code:
  #include<stdio.h>
@@ -6897,8 +6897,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /tmp/tmpc1rfl2u0
-Command line:  c++ /tmp/tmpc1rfl2u0/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpc1rfl2u0/output.obj -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmphucbhoxk
+Command line:  c++ /tmp/tmphucbhoxk/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmphucbhoxk/output.obj -O0 -fpermissive --print-search-dirs 
 
 Code:
  
@@ -6911,8 +6911,8 @@ Compiler stderr:
  
 Dependency libpcre found: YES 8.39
 Running compile:
-Working directory:  /tmp/tmpslvbfxil
-Command line:  cc /tmp/tmpslvbfxil/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpslvbfxil/output.exe -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpyr01dito
+Command line:  cc /tmp/tmpyr01dito/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpyr01dito/output.exe -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -6931,8 +6931,8 @@ Called `/usr/bin/pkg-config libffi --libs` -> 0
 Called `/usr/bin/pkg-config libffi --libs` -> 0
 -lffi
 Running compile:
-Working directory:  /tmp/tmpmwx_8nhh
-Command line:  c++ /tmp/tmpmwx_8nhh/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmwx_8nhh/output.exe -O0 -fpermissive -Wl,--start-group -lffi -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpkelob25x
+Command line:  c++ /tmp/tmpkelob25x/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpkelob25x/output.exe -O0 -fpermissive -Wl,--start-group -lffi -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -6952,8 +6952,8 @@ Called `/usr/bin/pkg-config zlib --libs` -> 0
 -lz
 Dependency zlib found: YES 1.2.11
 Running compile:
-Working directory:  /tmp/tmpmmvdl0_z
-Command line:  cc /tmp/tmpmmvdl0_z/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmmvdl0_z/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp7qonwyud
+Command line:  cc /tmp/tmp7qonwyud/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp7qonwyud/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -6980,8 +6980,8 @@ Compiler stderr:
  
 Checking for function "ngettext" : YES
 Running compile:
-Working directory:  /tmp/tmpjy33kuuj
-Command line:  cc /tmp/tmpjy33kuuj/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjy33kuuj/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpjkt8u4nv
+Command line:  cc /tmp/tmpjkt8u4nv/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpjkt8u4nv/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -7017,10 +7017,19 @@ Called `/usr/bin/pkg-config mount --libs` -> 0
 Called `/usr/bin/pkg-config mount --libs` -> 0
 -lmount
 Dependency mount found: YES 2.33.1
-Dependency libselinux skipped: feature selinux disabled
+Determining dependency 'libselinux' with pkg-config executable '/usr/bin/pkg-config'
+Called `/usr/bin/pkg-config --modversion libselinux` -> 0
+2.8
+Called `/usr/bin/pkg-config --cflags libselinux` -> 0
+
+Called `/usr/bin/pkg-config libselinux --libs` -> 0
+-L/usr/lib -lselinux
+Called `/usr/bin/pkg-config libselinux --libs` -> 0
+-lselinux
+Dependency libselinux found: YES 2.8
 Running compile:
-Working directory:  /tmp/tmpek9mgx56
-Command line:  cc /tmp/tmpek9mgx56/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpek9mgx56/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmppr5prw3o
+Command line:  cc /tmp/tmppr5prw3o/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmppr5prw3o/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -7047,8 +7056,8 @@ Compiler stderr:
  
 Checking for function "getxattr" : YES
 Running compile:
-Working directory:  /tmp/tmp9tkz6e_i
-Command line:  cc /tmp/tmp9tkz6e_i/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
+Working directory:  /tmp/tmpyim1kg09
+Command line:  cc /tmp/tmpyim1kg09/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -E -P -O0 -std=gnu99 
 
 Code:
  
@@ -7065,8 +7074,8 @@ Compiler stderr:
  
 Has header "sys/xattr.h" : YES
 Running compile:
-Working directory:  /tmp/tmp5_wob9o0
-Command line:  cc /tmp/tmp5_wob9o0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp5_wob9o0/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp39xkyih4
+Command line:  cc /tmp/tmp39xkyih4/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp39xkyih4/output.obj -O0 -std=gnu99 
 
 Code:
  #define HAVE_ALLOCA_H 1
@@ -7192,24 +7201,24 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmp5_wob9o0/testfile.c: In function 'main':
-/tmp/tmp5_wob9o0/testfile.c:118:63: error: 'XATTR_NOFOLLOW' undeclared (first use in this function); did you mean 'XATTR_REPLACE'?
+ /tmp/tmp39xkyih4/testfile.c: In function 'main':
+/tmp/tmp39xkyih4/testfile.c:118:63: error: 'XATTR_NOFOLLOW' undeclared (first use in this function); did you mean 'XATTR_REPLACE'?
                     ssize_t len = getxattr("", "", NULL, 0, 0, XATTR_NOFOLLOW);
                                                                ^~~~~~~~~~~~~~
                                                                XATTR_REPLACE
-/tmp/tmp5_wob9o0/testfile.c:118:63: note: each undeclared identifier is reported only once for each function it appears in
-/tmp/tmp5_wob9o0/testfile.c:118:34: error: too many arguments to function 'getxattr'
+/tmp/tmp39xkyih4/testfile.c:118:63: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp39xkyih4/testfile.c:118:34: error: too many arguments to function 'getxattr'
                     ssize_t len = getxattr("", "", NULL, 0, 0, XATTR_NOFOLLOW);
                                   ^~~~~~~~
-In file included from /tmp/tmp5_wob9o0/testfile.c:112:
+In file included from /tmp/tmp39xkyih4/testfile.c:112:
 /usr/include/x86_64-linux-gnu/sys/xattr.h:59:16: note: declared here
  extern ssize_t getxattr (const char *__path, const char *__name,
                 ^~~~~~~~
 
 Checking if "XATTR_NOFOLLOW" compiles: NO
 Running compile:
-Working directory:  /tmp/tmpbs3zuxjx
-Command line:  cc /tmp/tmpbs3zuxjx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpbs3zuxjx/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpcylozvp3
+Command line:  cc /tmp/tmpcylozvp3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpcylozvp3/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -7233,13 +7242,13 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/ccMOAWdb.o: in function `main':
+ /usr/bin/ld: /tmp/ccxMJrBs.o: in function `main':
 testfile.c:(.text+0xa): undefined reference to `strlcpy'
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpwmx7bl6n
-Command line:  cc /tmp/tmpwmx7bl6n/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpwmx7bl6n/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmp6t7nttg0
+Command line:  cc /tmp/tmp6t7nttg0/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6t7nttg0/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -7264,17 +7273,17 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpwmx7bl6n/testfile.c: In function 'main':
-/tmp/tmpwmx7bl6n/testfile.c:14:17: error: '__builtin_strlcpy' undeclared (first use in this function); did you mean '__builtin_strcpy'?
+ /tmp/tmp6t7nttg0/testfile.c: In function 'main':
+/tmp/tmp6t7nttg0/testfile.c:14:17: error: '__builtin_strlcpy' undeclared (first use in this function); did you mean '__builtin_strcpy'?
                  __builtin_strlcpy;
                  ^~~~~~~~~~~~~~~~~
                  __builtin_strcpy
-/tmp/tmpwmx7bl6n/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
+/tmp/tmp6t7nttg0/testfile.c:14:17: note: each undeclared identifier is reported only once for each function it appears in
 
 Checking for function "strlcpy" : NO
 Running compile:
-Working directory:  /tmp/tmpgcrfwy3k
-Command line:  cc /tmp/tmpgcrfwy3k/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpgcrfwy3k/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpwz0247yd
+Command line:  cc /tmp/tmpwz0247yd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpwz0247yd/output.exe -O0 -std=gnu99 
 
 Code:
  
@@ -7320,9 +7329,9 @@ main (void)
 Compiler stdout:
  
 Compiler stderr:
- In file included from /tmp/tmpgcrfwy3k/testfile.c:7:
-/tmp/tmpgcrfwy3k/testfile.c: In function '__getcmdline':
-/tmp/tmpgcrfwy3k/testfile.c:25:13: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+ In file included from /tmp/tmpwz0247yd/testfile.c:7:
+/tmp/tmpwz0247yd/testfile.c: In function '__getcmdline':
+/tmp/tmpwz0247yd/testfile.c:25:13: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
      assert (read (fd, result, BUFSIZE) > 0);
              ^~~~
 
@@ -7432,7 +7441,8 @@ Adding test "gwakeup-fallback"
 Adding test "include"
 Adding test "unix"
 Adding test "gutils-user-database"
-Program xmllint found: NO
+Program xmllint found: YES (/usr/bin/xmllint)
+Adding test "gtester-xmllint-check"
 Configuring glib-genmarshal using configuration
 Program /home/beangreen247/surf/glib-2.64.0/build/gobject/glib-genmarshal found: YES (/home/beangreen247/surf/glib-2.64.0/build/gobject/glib-genmarshal)
 Configuring glib-mkenums using configuration
@@ -7462,8 +7472,8 @@ Adding test "autoptr"
 Adding test "genmarshal.py"
 Adding test "mkenums.py"
 Running compile:
-Working directory:  /tmp/tmpzxfhv8h8
-Command line:  cc /tmp/tmpzxfhv8h8/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpzxfhv8h8/output.exe -Wl,--start-group -ldl -Wl,--end-group -O0 -std=gnu99 
+Working directory:  /tmp/tmpozivf2hn
+Command line:  cc /tmp/tmpozivf2hn/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpozivf2hn/output.exe -Wl,--start-group -ldl -Wl,--end-group -O0 -std=gnu99 
 
 Code:
  
@@ -7490,8 +7500,8 @@ Program stderr:
 
 Checking if "dlsym() preceding underscores" with dependency -ldl runs: NO (1)
 Running compile:
-Working directory:  /tmp/tmpk7xcfcs7
-Command line:  cc /tmp/tmpk7xcfcs7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpk7xcfcs7/output.exe -Wl,--start-group -ldl -Wl,--end-group -O0 -std=gnu99 
+Working directory:  /tmp/tmpzrbu5h0w
+Command line:  cc /tmp/tmpzrbu5h0w/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpzrbu5h0w/output.exe -Wl,--start-group -ldl -Wl,--end-group -O0 -std=gnu99 
 
 Code:
  
@@ -7519,8 +7529,8 @@ Compiler stderr:
 Checking for function "dlerror" with dependency -ldl: YES
 Configuring gmoduleconf.h using configuration
 Running compile:
-Working directory:  /tmp/tmpg_bbrquw
-Command line:  cc /tmp/tmpg_bbrquw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpg_bbrquw/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmp9e6vogts
+Command line:  cc /tmp/tmp9e6vogts/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9e6vogts/output.obj -O0 -std=gnu99 
 
 Code:
  #include <sys/types.h>
@@ -7532,8 +7542,8 @@ Compiler stderr:
  
 Checking if "C_IN in public headers (no arpa/nameser_compat.h needed)" compiles: YES
 Running compile:
-Working directory:  /tmp/tmp3yts344r
-Command line:  cc /tmp/tmp3yts344r/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3yts344r/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvc5lwloa
+Command line:  cc /tmp/tmpvc5lwloa/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvc5lwloa/output.exe -O0 -std=gnu99 
 
 Code:
  #include <sys/types.h>
@@ -7546,14 +7556,14 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /usr/bin/ld: /tmp/cc9gwohg.o: in function `main':
+ /usr/bin/ld: /tmp/ccEhgKdB.o: in function `main':
 testfile.c:(.text+0x2c): undefined reference to `__res_query'
 collect2: error: ld returned 1 exit status
 
 Checking if "res_query()" links: NO
 Running compile:
-Working directory:  /tmp/tmpj7qvtk37
-Command line:  cc /tmp/tmpj7qvtk37/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpj7qvtk37/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmpg02erdmq
+Command line:  cc /tmp/tmpg02erdmq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpg02erdmq/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7569,8 +7579,8 @@ Compiler stderr:
  
 Checking if "res_query() in -lresolv" links: YES
 Running compile:
-Working directory:  /tmp/tmpwntse1jb
-Command line:  cc /tmp/tmpwntse1jb/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpwntse1jb/output.exe -O0 -Wl,--start-group -lresolv -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpmvwksr_7
+Command line:  cc /tmp/tmpmvwksr_7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpmvwksr_7/output.exe -O0 -Wl,--start-group -lresolv -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -7580,8 +7590,8 @@ Compiler stderr:
  
 Library resolv found: YES
 Running compile:
-Working directory:  /tmp/tmpc7p2oton
-Command line:  cc /tmp/tmpc7p2oton/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpc7p2oton/output.exe -O0 -std=gnu99 
+Working directory:  /tmp/tmpvr8oonu_
+Command line:  cc /tmp/tmpvr8oonu_/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpvr8oonu_/output.exe -O0 -std=gnu99 
 
 Code:
  #include <sys/types.h>
@@ -7595,8 +7605,8 @@ Compiler stderr:
  
 Checking if "socket()" links: YES
 Running compile:
-Working directory:  /tmp/tmp8t75apig
-Command line:  cc /tmp/tmp8t75apig/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp8t75apig/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmp6n8xxukx
+Command line:  cc /tmp/tmp6n8xxukx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6n8xxukx/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7612,8 +7622,8 @@ Compiler stderr:
  
 Checking if "res_init()" links: YES
 Running compile:
-Working directory:  /tmp/tmp1g_ta1t3
-Command line:  cc /tmp/tmp1g_ta1t3/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp1g_ta1t3/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmpalj1241b
+Command line:  cc /tmp/tmpalj1241b/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpalj1241b/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7631,8 +7641,8 @@ Compiler stderr:
  
 Checking if "res_nclose()" links: YES
 Running compile:
-Working directory:  /tmp/tmpnil6a072
-Command line:  cc /tmp/tmpnil6a072/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnil6a072/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmpnvjv350m
+Command line:  cc /tmp/tmpnvjv350m/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnvjv350m/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7647,19 +7657,19 @@ Code:
 Compiler stdout:
  
 Compiler stderr:
- /tmp/tmpnil6a072/testfile.c: In function 'main':
-/tmp/tmpnil6a072/testfile.c:7:20: warning: implicit declaration of function 'res_ndestroy'; did you mean 'res_nsearch'? [-Wimplicit-function-declaration]
+ /tmp/tmpnvjv350m/testfile.c: In function 'main':
+/tmp/tmpnvjv350m/testfile.c:7:20: warning: implicit declaration of function 'res_ndestroy'; did you mean 'res_nsearch'? [-Wimplicit-function-declaration]
                     res_ndestroy(&res);
                     ^~~~~~~~~~~~
                     res_nsearch
-/usr/bin/ld: /tmp/ccMYZU4l.o: in function `main':
+/usr/bin/ld: /tmp/cc0hfbmB.o: in function `main':
 testfile.c:(.text+0x28): undefined reference to `res_ndestroy'
 collect2: error: ld returned 1 exit status
 
 Checking if "res_ndestroy()" links: NO
 Running compile:
-Working directory:  /tmp/tmpc8dpjzig
-Command line:  cc /tmp/tmpc8dpjzig/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpc8dpjzig/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmpce0uv_6g
+Command line:  cc /tmp/tmpce0uv_6g/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpce0uv_6g/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7676,8 +7686,8 @@ Compiler stderr:
  
 Checking if "res_ninit()" links: YES
 Running compile:
-Working directory:  /tmp/tmp5in8xs_t
-Command line:  cc /tmp/tmp5in8xs_t/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp5in8xs_t/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
+Working directory:  /tmp/tmpfo820spx
+Command line:  cc /tmp/tmpfo820spx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpfo820spx/output.exe -O0 -std=gnu99 -Wl,--start-group -lresolv -Wl,--end-group 
 
 Code:
  #include <sys/types.h>
@@ -7694,8 +7704,8 @@ Compiler stderr:
  
 Checking if "res_nquery()" links: YES
 Running compile:
-Working directory:  /tmp/tmp68yl74vq
-Command line:  cc /tmp/tmp68yl74vq/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp68yl74vq/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmpfreluiz9
+Command line:  cc /tmp/tmpfreluiz9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpfreluiz9/output.obj -O0 -std=gnu99 
 
 Code:
  #include <netinet/in.h>
@@ -7708,8 +7718,8 @@ Compiler stderr:
  
 Checking for type "struct ip_mreqn" : YES
 Running compile:
-Working directory:  /tmp/tmphv9c7jwx
-Command line:  cc /tmp/tmphv9c7jwx/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmphv9c7jwx/output.obj -O0 -std=gnu99 
+Working directory:  /tmp/tmplku4mjev
+Command line:  cc /tmp/tmplku4mjev/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmplku4mjev/output.obj -O0 -std=gnu99 
 
 Code:
  #include <sys/ioctl.h>
@@ -7738,8 +7748,8 @@ Try CMake generator: auto
 Called `/usr/bin/cmake --trace-expand -DNAME=libelf .` in /home/beangreen247/surf/glib-2.64.0/build/meson-private/cmake_libelf -> 0
 Dependency libelf found: NO (tried pkgconfig and cmake)
 Running compile:
-Working directory:  /tmp/tmpet86kyt9
-Command line:  cc /tmp/tmpet86kyt9/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpet86kyt9/output.exe -O0 -Wl,--start-group -lelf -Wl,--end-group -Wl,--allow-shlib-undefined 
+Working directory:  /tmp/tmpo84rtuco
+Command line:  cc /tmp/tmpo84rtuco/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpo84rtuco/output.exe -O0 -Wl,--start-group -lelf -Wl,--end-group -Wl,--allow-shlib-undefined 
 
 Code:
  int main(int argc, char **argv) { return 0; }
@@ -7750,8 +7760,8 @@ Compiler stderr:
 collect2: error: ld returned 1 exit status
 
 Running compile:
-Working directory:  /tmp/tmpw8p6_auz
-Command line:  cc /tmp/tmpw8p6_auz/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpw8p6_auz/output.exe -O0 
+Working directory:  /tmp/tmp3752qaw5
+Command line:  cc /tmp/tmp3752qaw5/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp3752qaw5/output.exe -O0 
 
 Code:
  #include<stdio.h>
@@ -7772,8 +7782,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /tmp/tmpy__vmf1j
-Command line:  cc /tmp/tmpy__vmf1j/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpy__vmf1j/output.obj -O0 --print-search-dirs 
+Working directory:  /tmp/tmpzfc2gikd
+Command line:  cc /tmp/tmpzfc2gikd/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpzfc2gikd/output.obj -O0 --print-search-dirs 
 
 Code:
  
@@ -8035,8 +8045,8 @@ Adding test "resources"
 Adding test "codegen.py"
 Configuring org.freedesktop.portal.Documents.service using configuration
 Running compile:
-Working directory:  /tmp/tmptb39wrhl
-Command line:  cc /tmp/tmptb39wrhl/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmptb39wrhl/output.obj -O0 -Werror=unused-function 
+Working directory:  /tmp/tmp9brm85yw
+Command line:  cc /tmp/tmp9brm85yw/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp9brm85yw/output.obj -O0 -Werror=unused-function 
 
 Code:
  int i;
@@ -8102,6 +8112,5 @@ Adding test "iochannel-test"
 Program xgettext found: YES (/usr/bin/xgettext)
 Configuring glib-gettextize using configuration
 Configuring config.h using configuration
-Program xsltproc found: YES (/usr/bin/xsltproc)
-Build targets in project: 394
+Build targets in project: 380
 Found ninja-1.8.2 at /usr/bin/ninja

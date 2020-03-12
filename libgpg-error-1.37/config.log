@@ -62,7 +62,7 @@ configure:3338: result: x86_64-pc-linux-gnu
 configure:3362: autobuild project... libgpg-error
 configure:3364: autobuild revision... 1.37
 configure:3368: autobuild hostname... ihatewindows
-configure:3377: autobuild timestamp... 20200311-081105
+configure:3377: autobuild timestamp... 20200312-121829
 configure:3431: checking for gcc
 configure:3447: found /usr/bin/gcc
 configure:3458: result: gcc
@@ -919,7 +919,7 @@ configure:12502: $? = 0
 configure:12502: result: yes
 configure:12502: checking for strlwr
 configure:12502: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccGXnthk.o: in function `main':
+/usr/bin/ld: /tmp/ccl2Uexm.o: in function `main':
 /home/beangreen247/surf/libgpg-error-1.37/conftest.c:84: undefined reference to `strlwr'
 collect2: error: ld returned 1 exit status
 configure:12502: $? = 1
@@ -1295,7 +1295,7 @@ conftest.c:68:1: warning: null argument where non-null required (argument 1) [-W
 conftest.c:69:16: warning: null argument where non-null required (argument 1) [-Wnonnull]
                 pthread_mutexattr_init((pthread_mutexattr_t*)0);
                 ^~~~~~~~~~~~~~~~~~~~~~
-/usr/bin/ld: /tmp/ccAEZ6KJ.o: in function `main':
+/usr/bin/ld: /tmp/ccESuh4N.o: in function `main':
 /home/beangreen247/surf/libgpg-error-1.37/conftest.c:69: undefined reference to `pthread_mutexattr_init'
 collect2: error: ld returned 1 exit status
 configure:13307: $? = 1
@@ -2316,12 +2316,16 @@ config.status:1269: creating src/gpg-error-config-old
 config.status:1269: creating src/gpgrt-config
 config.status:1269: creating src/gpg-error-config-test.sh
 config.status:1269: creating config.h
+config.status:1450: config.h is unchanged
 config.status:1498: executing depfiles commands
 config.status:1575: cd doc       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1580: $? = 0
 config.status:1575: cd src       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1580: $? = 0
 config.status:1575: cd tests       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
+make: Nothing to be done for 'am--depfiles'.
 config.status:1580: $? = 0
 config.status:1498: executing libtool commands
 config.status:1498: executing po-directories commands

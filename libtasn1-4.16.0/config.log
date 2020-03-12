@@ -2651,7 +2651,7 @@ configure:14214: checking whether to build with code coverage support
 configure:14234: result: no
 configure:14554: checking for library containing dlsym
 configure:14585: gcc -o conftest -g -O2   conftest.c  >&5
-/usr/bin/ld: /tmp/ccZnngRD.o: in function `main':
+/usr/bin/ld: /tmp/ccGXi3g9.o: in function `main':
 /home/beangreen247/surf/libtasn1-4.16.0/conftest.c:69: undefined reference to `dlsym'
 collect2: error: ld returned 1 exit status
 configure:14585: $? = 1

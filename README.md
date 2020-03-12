@@ -6,7 +6,7 @@ Some changes were made by me.
 
 # Build
 ```
-sudo apt install -y git gst-libav gst-plugins-good cmake build-essential valac libgtk-3-dev libsoup2.4-dev libgranite-dev libgda-5.0-dev libjson-glib-dev libwebkit2gtk-4.0-dev p11-kit-0.23.2 libtasn1-4.16.00 libgcrypt-1.8.5 GLib-2.64.0 meson xsltproc
+sudo apt install -y git cmake valac libgtk-3-dev libsoup2.4-dev libgranite-dev libgda-5.0-dev libjson-glib-dev libwebkit2gtk-4.0-dev meson xsltproc
 ```
 Clone the repo and cd into it
 ```

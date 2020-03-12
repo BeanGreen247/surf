@@ -85,3 +85,6 @@ to add bookmarks create ~/.surf/bookmarks file and add links
 ```
 vim ~/.surf/bookmarks
 ```
+# TODO
+* Implement downloading of files
+* Implement uploading of files

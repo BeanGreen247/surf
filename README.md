@@ -16,9 +16,11 @@ cd surf
 Follow the steps
 ```
 cd glib-2.64.0/
+rm -rf build
 mkdir build &&
 cd    build &&
-meson --prefix=/usr      \xsltproc
+
+meson --prefix=/usr      \
       -Dman=true         \
       -Dselinux=disabled \
       ..                 &&

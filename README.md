@@ -6,7 +6,7 @@ Some changes were made by me.
 
 # Build
 ```
-sudo apt install -y git cmake valac libgtk-3-dev libsoup2.4-dev libgranite-dev libgda-5.0-dev libjson-glib-dev libwebkit2gtk-4.0-dev meson xsltproc help2man texinfo
+sudo apt install -y git cmake automake valac libgtk-3-dev libsoup2.4-dev libgranite-dev libgda-5.0-dev libjson-glib-dev libwebkit2gtk-4.0-dev meson xsltproc help2man texinfo
 ```
 Clone the repo and cd into it
 ```

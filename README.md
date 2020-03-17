@@ -10,7 +10,7 @@ sudo apt install -y git cmake valac libgtk-3-dev libsoup2.4-dev libgranite-dev l
 ```
 Clone the repo and cd into it
 ```
-git clone <repolink>
+git clone https://github.com/BeanGreen247/surf.git
 cd surf
 ```
 Follow the steps
